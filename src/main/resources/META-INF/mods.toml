@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="magic"
+version="1.0.0"
+displayName="magic"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="w32w6, MCreator"
+
+[[dependencies.magic]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
