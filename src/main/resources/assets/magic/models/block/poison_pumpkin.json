@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "magic:block/poison_pumpkin_top",
+    "up": "magic:block/poison_pumpkin_top",
+    "north": "magic:block/poison_pumpkin_side",
+    "east": "magic:block/poison_pumpkin_side",
+    "south": "magic:block/poison_pumpkin_side",
+    "west": "magic:block/poison_pumpkin_side",
+    "particle": "magic:block/poison_pumpkin_top"
+  },
+  "render_type": "solid"
+}

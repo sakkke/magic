@@ -28,5 +28,9 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.SUN_ROD.get());
 			tabData.accept(MagicModItems.THUNDER_ROD.get());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
+		}
 	}
 }

@@ -31,6 +31,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.magic.init.MagicModTabs;
 import net.mcreator.magic.init.MagicModItems;
+import net.mcreator.magic.init.MagicModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,6 +50,8 @@ public class MagicMod {
 	public MagicMod() {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		MagicModBlocks.REGISTRY.register(bus);
 
 		MagicModItems.REGISTRY.register(bus);
 

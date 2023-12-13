@@ -148,22 +148,6 @@
           "src/main/resources/assets/magic/models/item/thunder_rod.json"
         ]
       }
-    },
-    {
-      "name": "PoisonPumpkin",
-      "type": "block",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poison_pumpkin",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magic/models/item/poison_pumpkin.json",
-          "src/main/resources/assets/magic/blockstates/poison_pumpkin.json",
-          "src/main/resources/assets/magic/models/block/poison_pumpkin.json",
-          "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -173,7 +157,6 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
-      "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod"
     }
   },
