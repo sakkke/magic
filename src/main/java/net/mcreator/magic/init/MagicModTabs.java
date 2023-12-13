@@ -23,6 +23,7 @@ public class MagicModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(MagicModItems.RAIN_ROD.get());
 			tabData.accept(MagicModItems.INFINITY_ROD.get());
 		}
 	}

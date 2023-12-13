@@ -3,7 +3,6 @@
     {
       "name": "InfinityRod",
       "type": "tool",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "infinity_rod",
@@ -13,58 +12,12 @@
           "src/main/java/net/mcreator/magic/item/InfinityRodItem.java"
         ]
       }
-    },
-    {
-      "name": "RainRod",
-      "type": "tool",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rain_rod",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/item/RainRodItem.java",
-          "src/main/resources/assets/magic/models/item/rain_rod.json"
-        ]
-      }
-    },
-    {
-      "name": "RainRodRightclicked",
-      "type": "procedure",
-      "sortid": 3,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rain_rod_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/RainRodRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod"
     }
   },
