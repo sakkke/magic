@@ -26,6 +26,7 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.RAIN_ROD.get());
 			tabData.accept(MagicModItems.INFINITY_ROD.get());
 			tabData.accept(MagicModItems.SUN_ROD.get());
+			tabData.accept(MagicModItems.THUNDER_ROD.get());
 		}
 	}
 }

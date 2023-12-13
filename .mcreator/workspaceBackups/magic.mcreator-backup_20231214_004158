@@ -103,51 +103,6 @@
           "src/main/java/net/mcreator/magic/item/SunRodItem.java"
         ]
       }
-    },
-    {
-      "name": "ThunderRodRightclicked",
-      "type": "procedure",
-      "sortid": 6,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thunder_rod_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/ThunderRodRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "ThunderRod",
-      "type": "tool",
-      "sortid": 7,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "thunder_rod",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/item/ThunderRodItem.java",
-          "src/main/resources/assets/magic/models/item/thunder_rod.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -156,8 +111,7 @@
     "en_us": {
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.rain_rod": "Rain Rod",
-      "item.magic.infinity_rod": "Infinity Rod",
-      "item.magic.thunder_rod": "Thunder Rod"
+      "item.magic.infinity_rod": "Infinity Rod"
     }
   },
   "foldersRoot": {

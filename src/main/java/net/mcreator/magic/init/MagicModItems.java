@@ -10,6 +10,8 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.mcreator.magic.item.ThunderRodItem;
+import net.mcreator.magic.item.SunRodItem;
 import net.mcreator.magic.item.RainRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
 import net.mcreator.magic.MagicMod;
@@ -19,4 +21,5 @@ public class MagicModItems {
 	public static final RegistryObject<Item> RAIN_ROD = REGISTRY.register("rain_rod", () -> new RainRodItem());
 	public static final RegistryObject<Item> INFINITY_ROD = REGISTRY.register("infinity_rod", () -> new InfinityRodItem());
 	public static final RegistryObject<Item> SUN_ROD = REGISTRY.register("sun_rod", () -> new SunRodItem());
+	public static final RegistryObject<Item> THUNDER_ROD = REGISTRY.register("thunder_rod", () -> new ThunderRodItem());
 }
