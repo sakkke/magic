@@ -1,9 +1,25 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "InfinityRod",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/infinity_rod.json",
+          "src/main/java/net/mcreator/magic/item/InfinityRodItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.magic.infinity_rod": "Infinity Rod"
+    }
   },
   "foldersRoot": {
     "name": "~",
