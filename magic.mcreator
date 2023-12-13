@@ -58,12 +58,58 @@
           }
         ]
       }
+    },
+    {
+      "name": "SunRodRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunRod",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/sun_rod.json",
+          "src/main/java/net/mcreator/magic/item/SunRodItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.magic.sun_rod": "Sun Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod"
     }

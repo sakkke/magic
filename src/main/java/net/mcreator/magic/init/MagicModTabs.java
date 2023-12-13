@@ -25,6 +25,7 @@ public class MagicModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(MagicModItems.RAIN_ROD.get());
 			tabData.accept(MagicModItems.INFINITY_ROD.get());
+			tabData.accept(MagicModItems.SUN_ROD.get());
 		}
 	}
 }

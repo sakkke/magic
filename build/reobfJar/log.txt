@@ -136,13 +136,13 @@ Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
@@ -163,10 +163,12 @@ Writing Output: C:\Users\w32w6\Documents\GitHub\magic\build\reobfJar\output.jar
   assets/magic/models/item/
   assets/magic/models/item/infinity_rod.json
   assets/magic/models/item/rain_rod.json
+  assets/magic/models/item/sun_rod.json
   assets/magic/textures/
   assets/magic/textures/item/
   assets/magic/textures/item/infinity_rod.png
   assets/magic/textures/item/rain_rod.png
+  assets/magic/textures/item/sun_rod.png
   net/
   net/mcreator/
   net/mcreator/magic/
@@ -181,4 +183,5 @@ Writing Output: C:\Users\w32w6\Documents\GitHub\magic\build\reobfJar\output.jar
   net/mcreator/magic/item/RainRodItem.class
   net/mcreator/magic/procedures/
   net/mcreator/magic/procedures/RainRodRightclickedProcedure.class
+  net/mcreator/magic/procedures/SunRodRightclickedProcedure.class
   pack.mcmeta
