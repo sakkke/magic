@@ -28,6 +28,7 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.SUN_ROD.get());
 			tabData.accept(MagicModItems.THUNDER_ROD.get());
 			tabData.accept(MagicModItems.DAY_ROD.get());
+			tabData.accept(MagicModItems.SUNRISE_ROD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
