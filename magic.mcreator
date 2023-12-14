@@ -164,6 +164,276 @@
           "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java"
         ]
       }
+    },
+    {
+      "name": "DayRodRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/DayRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DayRod",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/day_rod.json",
+          "src/main/java/net/mcreator/magic/item/DayRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SunriseRodRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunrise_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunriseRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunriseRod",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunrise_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java",
+          "src/main/resources/assets/magic/models/item/sunrise_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "SunsetRodRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunset_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunsetRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunsetRod",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunset_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/SunsetRodItem.java",
+          "src/main/resources/assets/magic/models/item/sunset_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "NightRodRightclicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/NightRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightRod",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/night_rod.json",
+          "src/main/java/net/mcreator/magic/item/NightRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoonRodRightclicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noon_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/NoonRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoonRod",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noon_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/noon_rod.json",
+          "src/main/java/net/mcreator/magic/item/NoonRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MidnightRodRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MidnightRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MidnightRod",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java",
+          "src/main/resources/assets/magic/models/item/midnight_rod.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -171,10 +441,16 @@
   "language_map": {
     "en_us": {
       "item.magic.sun_rod": "Sun Rod",
+      "item.magic.midnight_rod": "Midnight Rod",
+      "item.magic.night_rod": "Night Rod",
+      "item.magic.noon_rod": "Noon Rod",
+      "item.magic.sunset_rod": "Sunset Rod",
+      "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
-      "item.magic.thunder_rod": "Thunder Rod"
+      "item.magic.thunder_rod": "Thunder Rod",
+      "item.magic.day_rod": "Day Rod"
     }
   },
   "foldersRoot": {
