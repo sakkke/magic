@@ -16,6 +16,7 @@ import net.mcreator.magic.item.ThunderRodItem;
 import net.mcreator.magic.item.SunRodItem;
 import net.mcreator.magic.item.RainRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
+import net.mcreator.magic.item.DayRodItem;
 import net.mcreator.magic.MagicMod;
 
 public class MagicModItems {
@@ -25,6 +26,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> SUN_ROD = REGISTRY.register("sun_rod", () -> new SunRodItem());
 	public static final RegistryObject<Item> THUNDER_ROD = REGISTRY.register("thunder_rod", () -> new ThunderRodItem());
 	public static final RegistryObject<Item> POISON_PUMPKIN = block(MagicModBlocks.POISON_PUMPKIN);
+	public static final RegistryObject<Item> DAY_ROD = REGISTRY.register("day_rod", () -> new DayRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

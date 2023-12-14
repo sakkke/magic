@@ -164,51 +164,6 @@
           "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java"
         ]
       }
-    },
-    {
-      "name": "DayRodRightclicked",
-      "type": "procedure",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "day_rod_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/DayRodRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "DayRod",
-      "type": "tool",
-      "sortid": 10,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "day_rod",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magic/models/item/day_rod.json",
-          "src/main/java/net/mcreator/magic/item/DayRodItem.java"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -219,8 +174,7 @@
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
-      "item.magic.thunder_rod": "Thunder Rod",
-      "item.magic.day_rod": "Day Rod"
+      "item.magic.thunder_rod": "Thunder Rod"
     }
   },
   "foldersRoot": {
