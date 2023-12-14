@@ -254,51 +254,6 @@
           "src/main/resources/assets/magic/models/item/sunrise_rod.json"
         ]
       }
-    },
-    {
-      "name": "SunsetRodRightclicked",
-      "type": "procedure",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sunset_rod_rightclicked",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/SunsetRodRightclickedProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "SunsetRod",
-      "type": "tool",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sunset_rod",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/item/SunsetRodItem.java",
-          "src/main/resources/assets/magic/models/item/sunset_rod.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -306,7 +261,6 @@
   "language_map": {
     "en_us": {
       "item.magic.sun_rod": "Sun Rod",
-      "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
