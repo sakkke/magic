@@ -17,6 +17,7 @@ import net.mcreator.magic.item.SunsetRodItem;
 import net.mcreator.magic.item.SunriseRodItem;
 import net.mcreator.magic.item.SunRodItem;
 import net.mcreator.magic.item.RainRodItem;
+import net.mcreator.magic.item.NightRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
 import net.mcreator.magic.item.DayRodItem;
 import net.mcreator.magic.MagicMod;
@@ -31,6 +32,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> DAY_ROD = REGISTRY.register("day_rod", () -> new DayRodItem());
 	public static final RegistryObject<Item> SUNRISE_ROD = REGISTRY.register("sunrise_rod", () -> new SunriseRodItem());
 	public static final RegistryObject<Item> SUNSET_ROD = REGISTRY.register("sunset_rod", () -> new SunsetRodItem());
+	public static final RegistryObject<Item> NIGHT_ROD = REGISTRY.register("night_rod", () -> new NightRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
