@@ -389,6 +389,51 @@
           "src/main/java/net/mcreator/magic/item/NoonRodItem.java"
         ]
       }
+    },
+    {
+      "name": "MidnightRodRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MidnightRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MidnightRod",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java",
+          "src/main/resources/assets/magic/models/item/midnight_rod.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -396,6 +441,7 @@
   "language_map": {
     "en_us": {
       "item.magic.sun_rod": "Sun Rod",
+      "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
