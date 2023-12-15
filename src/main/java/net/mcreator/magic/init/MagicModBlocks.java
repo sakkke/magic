@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.magic.block.Test02Block;
+import net.mcreator.magic.block.Test01fireblockBlock;
 import net.mcreator.magic.block.PoisonPumpkinBlock;
 import net.mcreator.magic.block.HealflowerBlock;
 import net.mcreator.magic.MagicMod;
