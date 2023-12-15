@@ -434,20 +434,6 @@
           "src/main/resources/assets/magic/models/item/midnight_rod.json"
         ]
       }
-    },
-    {
-      "name": "NantokaRod",
-      "type": "item",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nantoka_rod",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java",
-          "src/main/resources/assets/magic/models/item/nantoka_rod.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -457,7 +443,6 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
-      "item.magic.nantoka_rod": "Nantoka Rod",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
