@@ -466,6 +466,22 @@
       }
     },
     {
+      "name": "Test02",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_02",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/blockstates/test_02.json",
+          "src/main/resources/assets/magic/models/block/test_02.json",
+          "src/main/resources/assets/magic/models/item/test_02.json",
+          "src/main/java/net/mcreator/magic/block/Test02Block.java"
+        ]
+      }
+    },
+    {
       "name": "Healflower",
       "type": "plant",
       "sortid": 21,
@@ -494,6 +510,7 @@
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
+      "block.magic.test_02": "Test 0 2",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "block.magic.healflower": "Healflower",
       "item.magic.noon_rod": "Noon Rod",
