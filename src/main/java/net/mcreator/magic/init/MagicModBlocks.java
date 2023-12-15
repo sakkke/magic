@@ -10,6 +10,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.magic.block.Test01fireblockBlock;
 import net.mcreator.magic.block.PoisonPumpkinBlock;
 import net.mcreator.magic.block.HealflowerBlock;
 import net.mcreator.magic.MagicMod;
@@ -17,5 +18,6 @@ import net.mcreator.magic.MagicMod;
 public class MagicModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, MagicMod.MODID);
 	public static final RegistryObject<Block> POISON_PUMPKIN = REGISTRY.register("poison_pumpkin", () -> new PoisonPumpkinBlock());
+	public static final RegistryObject<Block> TEST_01FIREBLOCK = REGISTRY.register("test_01fireblock", () -> new Test01fireblockBlock());
 	public static final RegistryObject<Block> HEALFLOWER = REGISTRY.register("healflower", () -> new HealflowerBlock());
 }

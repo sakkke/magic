@@ -38,6 +38,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> NIGHT_ROD = REGISTRY.register("night_rod", () -> new NightRodItem());
 	public static final RegistryObject<Item> NOON_ROD = REGISTRY.register("noon_rod", () -> new NoonRodItem());
 	public static final RegistryObject<Item> MIDNIGHT_ROD = REGISTRY.register("midnight_rod", () -> new MidnightRodItem());
+	public static final RegistryObject<Item> TEST_01FIREBLOCK = block(MagicModBlocks.TEST_01FIREBLOCK);
 	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
 	public static final RegistryObject<Item> HEALFLOWER = block(MagicModBlocks.HEALFLOWER);
 
