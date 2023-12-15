@@ -38,5 +38,9 @@ public class MagicModTabs {
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MagicModItems.QWERTYUIOP.get());
+		}
 	}
 }
