@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "magic:block/flowe",
+    "particle": "magic:block/flowe"
+  },
+  "render_type": "cutout"
+}
