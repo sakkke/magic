@@ -93,5 +93,10 @@
     "onDestroyedByPlayer": {
       "name": "FlowerBreakedByPlayer"
     }
+    "patchSize": 40,
+    "generateAtAnyHeight": false,
+    "onDestroyedByPlayer": {
+      "name": "FlowerBreakedByPlayer"
+    }
   }
 }

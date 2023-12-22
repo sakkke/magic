@@ -530,7 +530,10 @@
     "en_us": {
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.night_rod": "Night Rod",
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231214_102211
 <<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100821
+========
+>>>>>>>> e2da7496 (HealFlowerを壊したときに体力増強をランダムな2-5秒間追加):.mcreator/workspaceBackups/magic.mcreator-backup_20231222_101251
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
       "block.magic.healflower": "Healflower",

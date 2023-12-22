@@ -19,6 +19,8 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.magic.procedures.FlowerBreakedByPlayerProcedure;
+
 import java.util.List;
 import java.util.Collections;
 
@@ -53,5 +55,12 @@ public class HealflowerBlock extends FlowerBlock {
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this));
+	}
+
+	@Override
+	public boolean onDestroyedByPlayer(BlockState blockstate, Level world, BlockPos pos, Player entity, boolean willHarvest, FluidState fluid) {
+		boolean retval = super.onDestroyedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
+		FlowerBreakedByPlayerProcedure.execute(entity);
+		return retval;
 	}
 }

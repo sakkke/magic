@@ -244,6 +244,7 @@ Writing Output: /home/sakkke/work/GitHubDesktop.AppImage.home/GitHub/magic/build
   net/mcreator/magic/item/ThunderRodItem.class
   net/mcreator/magic/procedures/
   net/mcreator/magic/procedures/DayRodRightclickedProcedure.class
+  net/mcreator/magic/procedures/FlowerBreakedByPlayerProcedure.class
   net/mcreator/magic/procedures/MidnightRodRightclickedProcedure.class
   net/mcreator/magic/procedures/NightRodRightclickedProcedure.class
   net/mcreator/magic/procedures/NoonRodRightclickedProcedure.class

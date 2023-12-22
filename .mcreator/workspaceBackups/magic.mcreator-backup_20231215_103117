@@ -531,13 +531,19 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
 <<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
+========
+>>>>>>>> e2da7496 (HealFlowerを壊したときに体力増強をランダムな2-5秒間追加):.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
       "block.magic.healflower": "Healflower",
       "item.magic.nantoka_rod": "Nantoka Rod",
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
 ========
 >>>>>>>> parent of 67dfec72 (Merge pull request #30 from sakkke/Test001):.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+========
+>>>>>>>> e2da7496 (HealFlowerを壊したときに体力増強をランダムな2-5秒間追加):.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
