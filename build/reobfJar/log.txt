@@ -134,80 +134,94 @@ Adding Libraries to Inheritance
 Reading Input: C:\Users\23B2043\Documents\GitHub\magic\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/InfinityRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/BlankstaffItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/mcreator/magic/item/BlankstaffItem/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap; from net/minecraft/world/item/Item/getDefaultAttributeModifiers(Lnet/minecraft/world/entity/EquipmentSlot;)Lcom/google/common/collect/Multimap;: getDefaultAttributeModifiers -> m_7167_
 Conflicting propagated mapping for net/mcreator/magic/item/MidnightRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/DayRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/magic/block/Test01fireblockBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/magic/block/Test01fireblockBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/magic/block/Test02Block/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
+Conflicting propagated mapping for net/mcreator/magic/block/Test02Block/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/mcreator/magic/block/PoisonPumpkinBlock/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I from net/minecraft/world/level/block/state/BlockBehaviour/getLightBlock(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)I: getLightBlock -> m_7753_
 Conflicting propagated mapping for net/mcreator/magic/block/PoisonPumpkinBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
+Conflicting propagated mapping for net/mcreator/magic/block/HealflowerBlock/getEffectDuration()I from net/minecraft/world/level/block/FlowerBlock/getEffectDuration()I: getEffectDuration -> m_53522_
+Conflicting propagated mapping for net/mcreator/magic/block/HealflowerBlock/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List; from net/minecraft/world/level/block/state/BlockBehaviour/getDrops(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/storage/loot/LootParams$Builder;)Ljava/util/List;: getDrops -> m_49635_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/NightRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/world/features/plants/HealflowerFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z from net/minecraft/world/level/levelgen/feature/RandomPatchFeature/place(Lnet/minecraft/world/level/levelgen/feature/FeaturePlaceContext;)Z: place -> m_142674_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/NoonRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/QwertyuiopItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z from net/minecraft/world/item/SwordItem/hurtEnemy(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/LivingEntity;)Z: hurtEnemy -> m_7579_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/RainRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
-Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
-Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/SunriseRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
 Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
-Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
 Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/SunRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/SunsetRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getUses()I from net/minecraft/world/item/Tier/getUses()I: getUses -> m_6609_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getSpeed()F from net/minecraft/world/item/Tier/getSpeed()F: getSpeed -> m_6624_
-Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient; from net/minecraft/world/item/Tier/getRepairIngredient()Lnet/minecraft/world/item/crafting/Ingredient;: getRepairIngredient -> m_6282_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getEnchantmentValue()I from net/minecraft/world/item/Tier/getEnchantmentValue()I: getEnchantmentValue -> m_6601_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getLevel()I from net/minecraft/world/item/Tier/getLevel()I: getLevel -> m_6604_
 Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem$1/getAttackDamageBonus()F from net/minecraft/world/item/Tier/getAttackDamageBonus()F: getAttackDamageBonus -> m_6631_
+Conflicting propagated mapping for net/mcreator/magic/item/ThunderRodItem/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder; from net/minecraft/world/item/Item/use(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;: use -> m_7203_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -218,36 +232,51 @@ Writing Output: C:\Users\23B2043\Documents\GitHub\magic\build\reobfJar\output.ja
   assets/
   assets/magic/
   assets/magic/blockstates/
+  assets/magic/blockstates/healflower.json
   assets/magic/blockstates/poison_pumpkin.json
   assets/magic/blockstates/test_01fireblock.json
+  assets/magic/blockstates/test_02.json
   assets/magic/lang/
   assets/magic/lang/en_us.json
   assets/magic/models/
   assets/magic/models/block/
+  assets/magic/models/block/healflower.json
   assets/magic/models/block/poison_pumpkin.json
   assets/magic/models/block/test_01fireblock.json
+  assets/magic/models/block/test_02.json
   assets/magic/models/item/
+  assets/magic/models/item/blankstaff.json
   assets/magic/models/item/day_rod.json
+  assets/magic/models/item/healflower.json
   assets/magic/models/item/infinity_rod.json
   assets/magic/models/item/midnight_rod.json
+  assets/magic/models/item/nantoka_rod.json
   assets/magic/models/item/night_rod.json
   assets/magic/models/item/noon_rod.json
   assets/magic/models/item/poison_pumpkin.json
+  assets/magic/models/item/qwertyuiop.json
   assets/magic/models/item/rain_rod.json
   assets/magic/models/item/sun_rod.json
   assets/magic/models/item/sunrise_rod.json
   assets/magic/models/item/sunset_rod.json
   assets/magic/models/item/test_01fireblock.json
+  assets/magic/models/item/test_02.json
   assets/magic/models/item/thunder_rod.json
   assets/magic/textures/
   assets/magic/textures/block/
+  assets/magic/textures/block/flowe.png
+  assets/magic/textures/block/flower.png
   assets/magic/textures/block/poison_pumpkin_side.png
   assets/magic/textures/block/poison_pumpkin_top.png
   assets/magic/textures/block/test01fireblock.png
+  assets/magic/textures/block/test02.png
   assets/magic/textures/item/
+  assets/magic/textures/item/blankstaff_texture.png
   assets/magic/textures/item/day_rod.png
   assets/magic/textures/item/infinity_rod.png
+  assets/magic/textures/item/lumica.png
   assets/magic/textures/item/midnight_rod.png
+  assets/magic/textures/item/nantoka_rod.png
   assets/magic/textures/item/night_rod.png
   assets/magic/textures/item/noon_rod.png
   assets/magic/textures/item/rain_rod.png
@@ -256,7 +285,17 @@ Writing Output: C:\Users\23B2043\Documents\GitHub\magic\build\reobfJar\output.ja
   assets/magic/textures/item/sunset_rod.png
   assets/magic/textures/item/test01fireblockitem.png
   assets/magic/textures/item/thunder_rod.png
+  assets/magic/textures/lumica.png
   data/
+  data/magic/
+  data/magic/forge/
+  data/magic/forge/biome_modifier/
+  data/magic/forge/biome_modifier/healflower_biome_modifier.json
+  data/magic/worldgen/
+  data/magic/worldgen/configured_feature/
+  data/magic/worldgen/configured_feature/healflower.json
+  data/magic/worldgen/placed_feature/
+  data/magic/worldgen/placed_feature/healflower.json
   data/minecraft/
   data/minecraft/tags/
   data/minecraft/tags/blocks/
@@ -267,23 +306,30 @@ Writing Output: C:\Users\23B2043\Documents\GitHub\magic\build\reobfJar\output.ja
   net/mcreator/magic/
   net/mcreator/magic/MagicMod.class
   net/mcreator/magic/block/
+  net/mcreator/magic/block/HealflowerBlock.class
   net/mcreator/magic/block/PoisonPumpkinBlock.class
   net/mcreator/magic/block/Test01fireblockBlock.class
+  net/mcreator/magic/block/Test02Block.class
   net/mcreator/magic/init/
   net/mcreator/magic/init/MagicModBlocks.class
+  net/mcreator/magic/init/MagicModFeatures.class
   net/mcreator/magic/init/MagicModItems.class
   net/mcreator/magic/init/MagicModTabs.class
   net/mcreator/magic/item/
+  net/mcreator/magic/item/BlankstaffItem.class
   net/mcreator/magic/item/DayRodItem$1.class
   net/mcreator/magic/item/DayRodItem.class
   net/mcreator/magic/item/InfinityRodItem$1.class
   net/mcreator/magic/item/InfinityRodItem.class
   net/mcreator/magic/item/MidnightRodItem$1.class
   net/mcreator/magic/item/MidnightRodItem.class
+  net/mcreator/magic/item/NantokaRodItem.class
   net/mcreator/magic/item/NightRodItem$1.class
   net/mcreator/magic/item/NightRodItem.class
   net/mcreator/magic/item/NoonRodItem$1.class
   net/mcreator/magic/item/NoonRodItem.class
+  net/mcreator/magic/item/QwertyuiopItem$1.class
+  net/mcreator/magic/item/QwertyuiopItem.class
   net/mcreator/magic/item/RainRodItem$1.class
   net/mcreator/magic/item/RainRodItem.class
   net/mcreator/magic/item/SunRodItem$1.class
@@ -299,9 +345,14 @@ Writing Output: C:\Users\23B2043\Documents\GitHub\magic\build\reobfJar\output.ja
   net/mcreator/magic/procedures/MidnightRodRightclickedProcedure.class
   net/mcreator/magic/procedures/NightRodRightclickedProcedure.class
   net/mcreator/magic/procedures/NoonRodRightclickedProcedure.class
+  net/mcreator/magic/procedures/QwertyuiopmobugaturudeGongJisaretatokiProcedure.class
   net/mcreator/magic/procedures/RainRodRightclickedProcedure.class
   net/mcreator/magic/procedures/SunRodRightclickedProcedure.class
   net/mcreator/magic/procedures/SunriseRodRightclickedProcedure.class
   net/mcreator/magic/procedures/SunsetRodRightclickedProcedure.class
   net/mcreator/magic/procedures/ThunderRodRightclickedProcedure.class
+  net/mcreator/magic/world/
+  net/mcreator/magic/world/features/
+  net/mcreator/magic/world/features/plants/
+  net/mcreator/magic/world/features/plants/HealflowerFeature.class
   pack.mcmeta

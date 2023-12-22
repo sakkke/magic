@@ -41,7 +41,7 @@ public class MagicModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(MagicModItems.QWERTYUIOP.get());
+			tabData.accept(MagicModItems.BLANKSTAFF.get());
 		}
 	}
 }
