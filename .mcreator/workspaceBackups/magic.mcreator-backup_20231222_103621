@@ -502,48 +502,6 @@
       }
     },
     {
-      "name": "Test",
-      "type": "livingentity",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/client/renderer/TestRenderer.java",
-          "src/main/java/net/mcreator/magic/entity/TestEntity.java",
-          "src/main/resources/assets/magic/models/item/test_spawn_egg.json",
-          "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
-        ]
-      }
-    },
-    {
-      "name": "Blankstaff",
-      "type": "item",
-      "sortid": 24,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blankstaff",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magic/models/item/blankstaff.json",
-          "src/main/java/net/mcreator/magic/item/BlankstaffItem.java"
-        ]
-      }
-    },
-    {
-      "name": "BlankstaffRecipi",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blankstaff_recipi",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magic/recipes/blankstaff_recipi.json"
-          ]
-    },
-    {
       "name": "FlowerBreakedByPlayer",
       "type": "procedure",
       "sortid": 23,
@@ -570,14 +528,10 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
-      "item.magic.blankstaff": "Blankstaff",
-      "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
       "block.magic.healflower": "Healflower",
-      "item.magic.blank_rod": "Blank Rod",
       "item.magic.nantoka_rod": "Nantoka Rod",
-      "entity.magic.test": "Test",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
