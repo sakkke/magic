@@ -466,37 +466,6 @@
       }
     },
     {
-      "name": "QwertyuiopmobugaturudeGongJisaretatoki",
-      "type": "procedure",
-      "sortid": 22,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "qwertyuiopmobugaturude_gong_jisaretatoki",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/QwertyuiopmobugaturudeGongJisaretatokiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Test02",
       "type": "block",
       "sortid": 22,
@@ -509,20 +478,6 @@
           "src/main/resources/assets/magic/models/block/test_02.json",
           "src/main/resources/assets/magic/models/item/test_02.json",
           "src/main/java/net/mcreator/magic/block/Test02Block.java"
-        ]
-      }
-    },
-    {
-      "name": "Qwertyuiop",
-      "type": "tool",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "qwertyuiop",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/magic/models/item/qwertyuiop.json",
-          "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java"
         ]
       }
     },
@@ -545,6 +500,49 @@
           "src/main/resources/assets/magic/models/block/healflower.json"
         ]
       }
+    },
+    {
+      "name": "Test",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/TestRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/TestEntity.java",
+          "src/main/resources/assets/magic/models/item/test_spawn_egg.json",
+          "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "BlankRod",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blank_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/blank_rod.json",
+          "src/main/java/net/mcreator/magic/item/BlankRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BlankrodRecipi",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blankrod_recipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/blankrod_recipi.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -554,11 +552,13 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
-      "item.magic.nantoka_rod": "Nantoka Rod",
-      "item.magic.qwertyuiop": "Qwertyuiop",
+      "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
       "block.magic.healflower": "Healflower",
+      "item.magic.blank_rod": "Blank Rod",
+      "item.magic.nantoka_rod": "Nantoka Rod",
+      "entity.magic.test": "Test",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
