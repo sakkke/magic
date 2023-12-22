@@ -35,10 +35,6 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.MIDNIGHT_ROD.get());
 		}
 
-		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(MagicModItems.TEST_SPAWN_EGG.get());
-		}
-
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
 			tabData.accept(MagicModBlocks.HEALFLOWER.get().asItem());
