@@ -39,5 +39,9 @@ public class MagicModTabs {
 			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
 			tabData.accept(MagicModBlocks.HEALFLOWER.get().asItem());
 		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+			tabData.accept(MagicModItems.BLANKSTAFF.get());
+		}
 	}
 }
