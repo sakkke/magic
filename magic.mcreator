@@ -631,6 +631,19 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "MPUI",
+      "type": "overlay",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/screens/MPUIOverlay.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -656,6 +669,7 @@
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
+      "gui.magic.mpui.label_mp": "MP",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
