@@ -596,6 +596,29 @@
       "locked_code": false,
       "registry_name": "mp_use",
       "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MPUtils"
+    },
+    {
+      "name": "MPCharge",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPChargeProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
