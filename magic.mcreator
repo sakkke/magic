@@ -531,25 +531,6 @@
       }
     },
     {
-      "name": "Healflower",
-      "type": "plant",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "healflower",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magic/forge/biome_modifier/healflower_biome_modifier.json",
-          "src/main/resources/assets/magic/blockstates/healflower.json",
-          "src/main/resources/assets/magic/models/block/healflower.json",
-          "src/main/resources/assets/magic/models/item/healflower.json",
-          "src/main/java/net/mcreator/magic/block/HealflowerBlock.java",
-          "src/main/resources/data/magic/worldgen/placed_feature/healflower.json",
-          "src/main/resources/data/magic/worldgen/configured_feature/healflower.json"
-        ]
-      }
-    },
-    {
       "name": "Blankstaff",
       "type": "item",
       "sortid": 24,
@@ -573,22 +554,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/magic/recipes/blankstaff_recipi.json"
-        ]
-      }
-    },
-    {
-      "name": "Test",
-      "type": "livingentity",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/client/renderer/TestRenderer.java",
-          "src/main/java/net/mcreator/magic/entity/TestEntity.java",
-          "src/main/resources/assets/magic/models/item/test_spawn_egg.json",
-          "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
         ]
       }
     },
@@ -631,6 +596,40 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "MPUI",
+      "type": "overlay",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/screens/MPUIOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "MPUIText",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpui_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPUITextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MPUtils"
     }
   ],
   "variable_elements": [
@@ -656,6 +655,7 @@
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
+      "gui.magic.mpui.label_mp": "MP",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
