@@ -11,8 +11,9 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.network.chat.Component;
 import net.minecraft.client.Minecraft;
+
+import net.mcreator.magic.procedures.MPUITextProcedure;
 
 @Mod.EventBusSubscriber({Dist.CLIENT})
 public class MPUIOverlay {
@@ -32,7 +33,9 @@ public class MPUIOverlay {
 			z = entity.getZ();
 		}
 		if (true) {
-			event.getGuiGraphics().drawString(Minecraft.getInstance().font, Component.translatable("gui.magic.mpui.label_mp"), w / 2 + 153, h / 2 + -4, -1, false);
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
+
+					MPUITextProcedure.execute(entity), w / 2 + 153, h / 2 + -4, -1, false);
 		}
 	}
 }

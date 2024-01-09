@@ -9,7 +9,8 @@
         "data": {
           "name": "label_mp",
           "text": {
-            "fixedValue": "MP"
+            "fixedValue": "MP",
+            "name": "MPUIText"
           },
           "color": {
             "value": -1,
