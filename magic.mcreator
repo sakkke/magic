@@ -573,21 +573,18 @@
       }
     },
     {
-      "name": "FlowerBreakedByPlayer",
-      "type": "procedure",
+      "name": "Test",
+      "type": "livingentity",
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flower_breaked_by_player",
+      "registry_name": "test",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/procedures/FlowerBreakedByPlayerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
+          "src/main/java/net/mcreator/magic/client/renderer/TestRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/TestEntity.java",
+          "src/main/resources/assets/magic/models/item/test_spawn_egg.json",
+          "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
         ]
       }
     }
