@@ -589,7 +589,14 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "PlayerMP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
