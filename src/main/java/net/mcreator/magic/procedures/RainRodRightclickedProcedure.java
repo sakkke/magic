@@ -17,7 +17,7 @@ public class RainRodRightclickedProcedure {
 			return;
 		double mp_cost = 0;
 		mp_cost = 2;
-		if ((entity.getCapability(MagicModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MagicModVariables.PlayerVariables())).PlayerMP > mp_cost) {
+		if ((entity.getCapability(MagicModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MagicModVariables.PlayerVariables())).PlayerMP >= mp_cost) {
 			for (int index0 = 0; index0 < (int) mp_cost; index0++) {
 				MPUseProcedure.execute(entity);
 			}
