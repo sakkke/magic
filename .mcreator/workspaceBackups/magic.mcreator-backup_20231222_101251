@@ -500,25 +500,6 @@
           "src/main/resources/assets/magic/models/block/healflower.json"
         ]
       }
-    },
-    {
-      "name": "FlowerBreakedByPlayer",
-      "type": "procedure",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "flower_breaked_by_player",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/FlowerBreakedByPlayerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
     }
   ],
   "variable_elements": [],
