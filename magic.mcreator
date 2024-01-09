@@ -631,6 +631,22 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "Portal",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/forge/biome_modifier/portal_biome_modifier.json",
+          "src/main/resources/assets/magic/models/item/portal_spawn_egg.json",
+          "src/main/java/net/mcreator/magic/client/renderer/PortalRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/PortalEntity.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -656,8 +672,10 @@
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
+      "entity.magic.portal": "Portal",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
+      "item.magic.portal_spawn_egg": "Portal Spawn Egg",
       "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
