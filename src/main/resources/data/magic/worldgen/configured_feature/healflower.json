@@ -1,5 +1,5 @@
 {
-  "type": "magic:healflower",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 40,
     "feature": {

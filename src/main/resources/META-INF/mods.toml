@@ -6,8 +6,8 @@ license="Academic Free License v3.0"
 modId="magic"
 version="1.0.0"
 displayName="magic"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="w32w6, MCreator"
 
 [[dependencies.magic]]

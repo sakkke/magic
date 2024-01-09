@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -29,7 +29,9 @@
       }
     ],
     "name": "Healflower",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "DECORATIONS"
     },
@@ -79,10 +81,12 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 3,
-    "spawnWorldTypes": [
-      "Surface"
+    "generateFeature": true,
+    "restrictionBiomes": [
+      {
+        "value": "#is_overworld"
+      }
     ],
-    "restrictionBiomes": [],
     "generationType": "Flower",
     "patchSize": 40,
     "generateAtAnyHeight": false,
