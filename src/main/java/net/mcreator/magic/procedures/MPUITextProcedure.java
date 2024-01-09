@@ -8,6 +8,6 @@ public class MPUITextProcedure {
 	public static String execute(Entity entity) {
 		if (entity == null)
 			return "";
-		return "UI: " + new java.text.DecimalFormat("#").format((entity.getCapability(MagicModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MagicModVariables.PlayerVariables())).PlayerMP);
+		return "MP: " + new java.text.DecimalFormat("#").format((entity.getCapability(MagicModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new MagicModVariables.PlayerVariables())).PlayerMP);
 	}
 }
