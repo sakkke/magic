@@ -587,6 +587,23 @@
           "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "MPUse",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_use",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MPUtils"
     }
   ],
   "variable_elements": [
@@ -624,7 +641,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "MPUtils",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "magic",
