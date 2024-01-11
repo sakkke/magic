@@ -519,6 +519,51 @@
           }
         ]
       }
+    },
+    {
+      "name": "SlownessStaffToEnemy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_staff_to_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SlownessStaffToEnemyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TurtleRod",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/TurtleRodItem.java",
+          "src/main/resources/assets/magic/models/item/turtle_rod.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -539,7 +584,8 @@
       "item.magic.infinity_rod": "Infinity Rod",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
-      "item.magic.day_rod": "Day Rod"
+      "item.magic.day_rod": "Day Rod",
+      "item.magic.turtle_rod": "Turtle Rod"
     }
   },
   "foldersRoot": {

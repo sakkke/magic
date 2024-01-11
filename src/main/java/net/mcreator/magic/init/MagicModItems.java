@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magic.item.TurtleRodItem;
 import net.mcreator.magic.item.ThunderRodItem;
 import net.mcreator.magic.item.SunsetRodItem;
 import net.mcreator.magic.item.SunriseRodItem;
@@ -42,6 +43,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
 	public static final RegistryObject<Item> HEALFLOWER = block(MagicModBlocks.HEALFLOWER);
 	public static final RegistryObject<Item> TEST_02 = block(MagicModBlocks.TEST_02);
+	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -519,6 +519,20 @@
           }
         ]
       }
+    },
+    {
+      "name": "SlownessStaffToEnemy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_staff_to_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SlownessStaffToEnemyProcedure.java"
+        ],
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
