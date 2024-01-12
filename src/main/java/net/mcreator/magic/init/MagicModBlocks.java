@@ -14,7 +14,6 @@ import net.mcreator.magic.block.WaterdBlock;
 import net.mcreator.magic.block.Test02Block;
 import net.mcreator.magic.block.Test01fireblockBlock;
 import net.mcreator.magic.block.PoisonPumpkinBlock;
-import net.mcreator.magic.block.HealflowerBlock;
 import net.mcreator.magic.MagicMod;
 
 public class MagicModBlocks {

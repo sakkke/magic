@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magic.item.TurtleRodItem;
 import net.mcreator.magic.item.WaterhazardItem;
 import net.mcreator.magic.item.WaterdItem;
 import net.mcreator.magic.item.ThunderRodItem;
@@ -25,7 +26,9 @@ import net.mcreator.magic.item.NightRodItem;
 import net.mcreator.magic.item.NantokaRodItem;
 import net.mcreator.magic.item.MidnightRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
+import net.mcreator.magic.item.HasteStaffItem;
 import net.mcreator.magic.item.DayRodItem;
+import net.mcreator.magic.item.BlankstaffItem;
 import net.mcreator.magic.MagicMod;
 
 public class MagicModItems {
@@ -43,11 +46,14 @@ public class MagicModItems {
 	public static final RegistryObject<Item> MIDNIGHT_ROD = REGISTRY.register("midnight_rod", () -> new MidnightRodItem());
 	public static final RegistryObject<Item> TEST_01FIREBLOCK = block(MagicModBlocks.TEST_01FIREBLOCK);
 	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
-	public static final RegistryObject<Item> HEALFLOWER = block(MagicModBlocks.HEALFLOWER);
 	public static final RegistryObject<Item> TEST_02 = block(MagicModBlocks.TEST_02);
+	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
+	public static final RegistryObject<Item> HEALFLOWER = block(MagicModBlocks.HEALFLOWER);
 	public static final RegistryObject<Item> QWERTYUIOP = REGISTRY.register("qwertyuiop", () -> new QwertyuiopItem());
 	public static final RegistryObject<Item> WATERHAZARD = REGISTRY.register("waterhazard", () -> new WaterhazardItem());
 	public static final RegistryObject<Item> WATERD_BUCKET = REGISTRY.register("waterd_bucket", () -> new WaterdItem());
+	public static final RegistryObject<Item> BLANKSTAFF = REGISTRY.register("blankstaff", () -> new BlankstaffItem());
+	public static final RegistryObject<Item> HASTE_STAFF = REGISTRY.register("haste_staff", () -> new HasteStaffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

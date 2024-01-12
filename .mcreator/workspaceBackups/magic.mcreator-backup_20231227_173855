@@ -1,0 +1,596 @@
+{
+  "mod_elements": [
+    {
+      "name": "InfinityRod",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/infinity_rod.json",
+          "src/main/java/net/mcreator/magic/item/InfinityRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RainRod",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/RainRodItem.java",
+          "src/main/resources/assets/magic/models/item/rain_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "RainRodRightclicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/RainRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunRodRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunRod",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/sun_rod.json",
+          "src/main/java/net/mcreator/magic/item/SunRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ThunderRodRightclicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/ThunderRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ThunderRod",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/ThunderRodItem.java",
+          "src/main/resources/assets/magic/models/item/thunder_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "PoisonPumpkin",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poison_pumpkin",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/poison_pumpkin.json",
+          "src/main/resources/assets/magic/blockstates/poison_pumpkin.json",
+          "src/main/resources/assets/magic/models/block/poison_pumpkin.json",
+          "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "DayRodRightclicked",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/DayRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DayRod",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/day_rod.json",
+          "src/main/java/net/mcreator/magic/item/DayRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SunriseRodRightclicked",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunrise_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunriseRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunriseRod",
+      "type": "tool",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunrise_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java",
+          "src/main/resources/assets/magic/models/item/sunrise_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "SunsetRodRightclicked",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunset_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SunsetRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunsetRod",
+      "type": "tool",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunset_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/SunsetRodItem.java",
+          "src/main/resources/assets/magic/models/item/sunset_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "NightRodRightclicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/NightRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NightRod",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/night_rod.json",
+          "src/main/java/net/mcreator/magic/item/NightRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "NoonRodRightclicked",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noon_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/NoonRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NoonRod",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "noon_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/noon_rod.json",
+          "src/main/java/net/mcreator/magic/item/NoonRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "MidnightRodRightclicked",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MidnightRodRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MidnightRod",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java",
+          "src/main/resources/assets/magic/models/item/midnight_rod.json"
+        ]
+      }
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
+    },
+    {
+      "name": "Test01fireblock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_01fireblock",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/block/Test01fireblockBlock.java",
+          "src/main/resources/assets/magic/models/item/test_01fireblock.json",
+          "src/main/resources/assets/magic/blockstates/test_01fireblock.json",
+          "src/main/resources/assets/magic/models/block/test_01fireblock.json"
+        ]
+      }
+    },
+    {
+      "name": "NantokaRod",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nantoka_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java",
+          "src/main/resources/assets/magic/models/item/nantoka_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "Test02",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_02",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/blockstates/test_02.json",
+          "src/main/resources/assets/magic/models/block/test_02.json",
+          "src/main/resources/assets/magic/models/item/test_02.json",
+          "src/main/java/net/mcreator/magic/block/Test02Block.java"
+        ]
+      }
+    },
+    {
+      "name": "Healflower",
+      "type": "plant",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "healflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/worldgen/configured_feature/healflower.json",
+          "src/main/resources/assets/magic/models/item/healflower.json",
+          "src/main/resources/assets/magic/blockstates/healflower.json",
+          "src/main/resources/data/magic/worldgen/placed_feature/healflower.json",
+          "src/main/java/net/mcreator/magic/block/HealflowerBlock.java",
+          "src/main/java/net/mcreator/magic/world/features/plants/HealflowerFeature.java",
+          "src/main/resources/data/magic/forge/biome_modifier/healflower_biome_modifier.json",
+          "src/main/resources/assets/magic/models/block/healflower.json"
+        ]
+      }
+    },
+    {
+      "name": "FlowerBreakedByPlayer",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flower_breaked_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/FlowerBreakedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+========
+>>>>>>>> parent of 67dfec72 (Merge pull request #30 from sakkke/Test001):.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+========
+    },
+    {
+      "name": "SlownessStaffToEnemy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_staff_to_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SlownessStaffToEnemyProcedure.java"
+        ],
+        "dependencies": []
+      }
+>>>>>>>> Test002-M:.mcreator/workspaceBackups/magic.mcreator-backup_20231227_173855
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.magic.sun_rod": "Sun Rod",
+      "item.magic.midnight_rod": "Midnight Rod",
+      "item.magic.night_rod": "Night Rod",
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
+========
+>>>>>>>> e2da7496 (HealFlowerを壊したときに体力増強をランダムな2-5秒間追加):.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
+      "block.magic.test_01fireblock": "Test 0 1fireblock",
+      "block.magic.test_02": "Test 0 2",
+      "block.magic.healflower": "Healflower",
+      "item.magic.nantoka_rod": "Nantoka Rod",
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+========
+>>>>>>>> parent of 67dfec72 (Merge pull request #30 from sakkke/Test001):.mcreator/workspaceBackups/magic.mcreator-backup_20231215_103117
+========
+>>>>>>>> e2da7496 (HealFlowerを壊したときに体力増強をランダムな2-5秒間追加):.mcreator/workspaceBackups/magic.mcreator-backup_20231222_100421
+      "item.magic.noon_rod": "Noon Rod",
+      "item.magic.sunset_rod": "Sunset Rod",
+      "item.magic.sunrise_rod": "Sunrise Rod",
+      "item.magic.rain_rod": "Rain Rod",
+      "item.magic.infinity_rod": "Infinity Rod",
+      "block.magic.poison_pumpkin": "Poison Pumpkin",
+      "item.magic.thunder_rod": "Thunder Rod",
+      "item.magic.day_rod": "Day Rod"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "magic",
+    "modName": "magic",
+    "version": "1.0.0",
+    "author": "w32w6, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.magic",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

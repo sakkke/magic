@@ -33,17 +33,19 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.NIGHT_ROD.get());
 			tabData.accept(MagicModItems.NOON_ROD.get());
 			tabData.accept(MagicModItems.MIDNIGHT_ROD.get());
+			tabData.accept(MagicModItems.TURTLE_ROD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
-			tabData.accept(MagicModBlocks.HEALFLOWER.get().asItem());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(MagicModItems.QWERTYUIOP.get());
 			tabData.accept(MagicModItems.WATERHAZARD.get());
 			tabData.accept(MagicModItems.WATERD_BUCKET.get());
+			tabData.accept(MagicModItems.BLANKSTAFF.get());
+			tabData.accept(MagicModItems.HASTE_STAFF.get());
 		}
 	}
 }

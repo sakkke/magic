@@ -59,7 +59,6 @@ public class MagicMod {
 		MagicModItems.REGISTRY.register(bus);
 
 		MagicModTabs.REGISTRY.register(bus);
-		MagicModFeatures.REGISTRY.register(bus);
 
 		MagicModFluids.REGISTRY.register(bus);
 		MagicModFluidTypes.REGISTRY.register(bus);
