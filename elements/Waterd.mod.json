@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "fluid",
+  "definition": {
+    "name": "Waterd",
+    "bucketName": "Waterd Bucket",
+    "textureStill": "kiiro",
+    "textureFlowing": "kiiro",
+    "tintType": "Water",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 1,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 3.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1000,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": true,
+    "textureBucket": "waterhazard",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "emptySound": {
+      "value": "block.waterlily.place"
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT"
+  }
+}

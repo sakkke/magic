@@ -12,6 +12,8 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.magic.item.WaterhazardItem;
+import net.mcreator.magic.item.WaterdItem;
 import net.mcreator.magic.item.ThunderRodItem;
 import net.mcreator.magic.item.SunsetRodItem;
 import net.mcreator.magic.item.SunriseRodItem;
@@ -39,11 +41,13 @@ public class MagicModItems {
 	public static final RegistryObject<Item> NIGHT_ROD = REGISTRY.register("night_rod", () -> new NightRodItem());
 	public static final RegistryObject<Item> NOON_ROD = REGISTRY.register("noon_rod", () -> new NoonRodItem());
 	public static final RegistryObject<Item> MIDNIGHT_ROD = REGISTRY.register("midnight_rod", () -> new MidnightRodItem());
-	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
-	public static final RegistryObject<Item> QWERTYUIOP = REGISTRY.register("qwertyuiop", () -> new QwertyuiopItem());
 	public static final RegistryObject<Item> TEST_01FIREBLOCK = block(MagicModBlocks.TEST_01FIREBLOCK);
-	public static final RegistryObject<Item> TEST_02 = block(MagicModBlocks.TEST_02);
+	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
 	public static final RegistryObject<Item> HEALFLOWER = block(MagicModBlocks.HEALFLOWER);
+	public static final RegistryObject<Item> TEST_02 = block(MagicModBlocks.TEST_02);
+	public static final RegistryObject<Item> QWERTYUIOP = REGISTRY.register("qwertyuiop", () -> new QwertyuiopItem());
+	public static final RegistryObject<Item> WATERHAZARD = REGISTRY.register("waterhazard", () -> new WaterhazardItem());
+	public static final RegistryObject<Item> WATERD_BUCKET = REGISTRY.register("waterd_bucket", () -> new WaterdItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
