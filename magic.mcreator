@@ -720,6 +720,134 @@
           }
         ]
       }
+    },
+    {
+      "name": "WaterhazardYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterhazard_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/WaterhazardYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waterhazard",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterhazard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/waterhazard.json",
+          "src/main/java/net/mcreator/magic/item/WaterhazardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Waterd",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/waterd_bucket.json",
+          "src/main/java/net/mcreator/magic/block/WaterdBlock.java",
+          "src/main/java/net/mcreator/magic/fluid/types/WaterdFluidType.java",
+          "src/main/resources/assets/magic/models/block/waterd.json",
+          "src/main/resources/assets/magic/blockstates/waterd.json",
+          "src/main/java/net/mcreator/magic/fluid/WaterdFluid.java",
+          "src/main/java/net/mcreator/magic/item/WaterdItem.java"
+        ]
+      }
+    },
+    {
+      "name": "WaterhazardYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterhazard_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/WaterhazardYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Waterhazard",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterhazard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/waterhazard.json",
+          "src/main/java/net/mcreator/magic/item/WaterhazardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Waterd",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/waterd_bucket.json",
+          "src/main/java/net/mcreator/magic/block/WaterdBlock.java",
+          "src/main/java/net/mcreator/magic/fluid/types/WaterdFluidType.java",
+          "src/main/resources/assets/magic/models/block/waterd.json",
+          "src/main/resources/assets/magic/blockstates/waterd.json",
+          "src/main/java/net/mcreator/magic/fluid/WaterdFluid.java",
+          "src/main/java/net/mcreator/magic/item/WaterdItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -741,17 +869,21 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
+      "fluid.magic.waterd": "Waterd",
       "block.magic.healflower": "Healflower",
       "item.magic.blank_rod": "Blank Rod",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
       "gui.magic.mpui.label_mp": "MP",
+      "item.magic.waterhazard": "Waterhazard",
+      "item.magic.waterd_bucket": "Waterd Bucket",
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
+      "block.magic.waterd": "Waterd",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
       "item.magic.day_rod": "Day Rod",
