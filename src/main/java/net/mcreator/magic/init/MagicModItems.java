@@ -24,6 +24,7 @@ import net.mcreator.magic.item.NightRodItem;
 import net.mcreator.magic.item.NantokaRodItem;
 import net.mcreator.magic.item.MidnightRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
+import net.mcreator.magic.item.HasteStaffItem;
 import net.mcreator.magic.item.DayRodItem;
 import net.mcreator.magic.item.BlankstaffItem;
 import net.mcreator.magic.MagicMod;
@@ -47,6 +48,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
 	public static final RegistryObject<Item> QWERTYUIOP = REGISTRY.register("qwertyuiop", () -> new QwertyuiopItem());
 	public static final RegistryObject<Item> BLANKSTAFF = REGISTRY.register("blankstaff", () -> new BlankstaffItem());
+	public static final RegistryObject<Item> HASTE_STAFF = REGISTRY.register("haste_staff", () -> new HasteStaffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
