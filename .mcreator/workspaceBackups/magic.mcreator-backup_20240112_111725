@@ -23,8 +23,8 @@
       "registry_name": "rain_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/RainRodItem.java",
-          "src/main/resources/assets/magic/models/item/rain_rod.json"
+          "src/main/resources/assets/magic/models/item/rain_rod.json",
+          "src/main/java/net/mcreator/magic/item/RainRodItem.java"
         ]
       }
     },
@@ -40,6 +40,10 @@
           "src/main/java/net/mcreator/magic/procedures/RainRodRightclickedProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -99,8 +103,8 @@
       "registry_name": "sun_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/sun_rod.json",
-          "src/main/java/net/mcreator/magic/item/SunRodItem.java"
+          "src/main/java/net/mcreator/magic/item/SunRodItem.java",
+          "src/main/resources/assets/magic/models/item/sun_rod.json"
         ]
       }
     },
@@ -144,8 +148,8 @@
       "registry_name": "thunder_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/ThunderRodItem.java",
-          "src/main/resources/assets/magic/models/item/thunder_rod.json"
+          "src/main/resources/assets/magic/models/item/thunder_rod.json",
+          "src/main/java/net/mcreator/magic/item/ThunderRodItem.java"
         ]
       }
     },
@@ -158,10 +162,10 @@
       "registry_name": "poison_pumpkin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/poison_pumpkin.json",
+          "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java",
           "src/main/resources/assets/magic/blockstates/poison_pumpkin.json",
           "src/main/resources/assets/magic/models/block/poison_pumpkin.json",
-          "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java"
+          "src/main/resources/assets/magic/models/item/poison_pumpkin.json"
         ]
       }
     },
@@ -205,8 +209,8 @@
       "registry_name": "day_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/day_rod.json",
-          "src/main/java/net/mcreator/magic/item/DayRodItem.java"
+          "src/main/java/net/mcreator/magic/item/DayRodItem.java",
+          "src/main/resources/assets/magic/models/item/day_rod.json"
         ]
       }
     },
@@ -250,8 +254,8 @@
       "registry_name": "sunrise_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java",
-          "src/main/resources/assets/magic/models/item/sunrise_rod.json"
+          "src/main/resources/assets/magic/models/item/sunrise_rod.json",
+          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java"
         ]
       }
     },
@@ -295,8 +299,8 @@
       "registry_name": "sunset_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/SunsetRodItem.java",
-          "src/main/resources/assets/magic/models/item/sunset_rod.json"
+          "src/main/resources/assets/magic/models/item/sunset_rod.json",
+          "src/main/java/net/mcreator/magic/item/SunsetRodItem.java"
         ]
       }
     },
@@ -340,8 +344,8 @@
       "registry_name": "night_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/night_rod.json",
-          "src/main/java/net/mcreator/magic/item/NightRodItem.java"
+          "src/main/java/net/mcreator/magic/item/NightRodItem.java",
+          "src/main/resources/assets/magic/models/item/night_rod.json"
         ]
       }
     },
@@ -430,8 +434,8 @@
       "registry_name": "midnight_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java",
-          "src/main/resources/assets/magic/models/item/midnight_rod.json"
+          "src/main/resources/assets/magic/models/item/midnight_rod.json",
+          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java"
         ]
       }
     },
@@ -445,9 +449,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/block/Test01fireblockBlock.java",
-          "src/main/resources/assets/magic/models/item/test_01fireblock.json",
           "src/main/resources/assets/magic/blockstates/test_01fireblock.json",
-          "src/main/resources/assets/magic/models/block/test_01fireblock.json"
+          "src/main/resources/assets/magic/models/block/test_01fireblock.json",
+          "src/main/resources/assets/magic/models/item/test_01fireblock.json"
         ]
       }
     },
@@ -460,8 +464,39 @@
       "registry_name": "nantoka_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java",
-          "src/main/resources/assets/magic/models/item/nantoka_rod.json"
+          "src/main/resources/assets/magic/models/item/nantoka_rod.json",
+          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "QwertyuiopmobugaturudeGongJisaretatoki",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "qwertyuiopmobugaturude_gong_jisaretatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/QwertyuiopmobugaturudeGongJisaretatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     },
@@ -474,43 +509,84 @@
       "registry_name": "test_02",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/blockstates/test_02.json",
           "src/main/resources/assets/magic/models/block/test_02.json",
+          "src/main/resources/assets/magic/blockstates/test_02.json",
           "src/main/resources/assets/magic/models/item/test_02.json",
           "src/main/java/net/mcreator/magic/block/Test02Block.java"
         ]
       }
     },
     {
-      "name": "Healflower",
-      "type": "plant",
-      "sortid": 21,
+      "name": "Qwertyuiop",
+      "type": "tool",
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "healflower",
+      "registry_name": "qwertyuiop",
       "metadata": {
         "files": [
-          "src/main/resources/data/magic/worldgen/configured_feature/healflower.json",
-          "src/main/resources/assets/magic/models/item/healflower.json",
-          "src/main/resources/assets/magic/blockstates/healflower.json",
-          "src/main/resources/data/magic/worldgen/placed_feature/healflower.json",
-          "src/main/java/net/mcreator/magic/block/HealflowerBlock.java",
-          "src/main/java/net/mcreator/magic/world/features/plants/HealflowerFeature.java",
-          "src/main/resources/data/magic/forge/biome_modifier/healflower_biome_modifier.json",
-          "src/main/resources/assets/magic/models/block/healflower.json"
+          "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java",
+          "src/main/resources/assets/magic/models/item/qwertyuiop.json"
         ]
       }
     },
     {
-      "name": "FlowerBreakedByPlayer",
-      "type": "procedure",
-      "sortid": 23,
+      "name": "Blankstaff",
+      "type": "item",
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flower_breaked_by_player",
+      "registry_name": "blankstaff",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/procedures/FlowerBreakedByPlayerProcedure.java"
+          "src/main/java/net/mcreator/magic/item/BlankstaffItem.java",
+          "src/main/resources/assets/magic/models/item/blankstaff.json"
+        ]
+      }
+    },
+    {
+      "name": "BlankstaffRecipi",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blankstaff_recipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/blankstaff_recipi.json"
+        ]
+      }
+    },
+    {
+      "name": "MPUse",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_use",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPUseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MPUtils"
+    },
+    {
+      "name": "MPCharge",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mp_charge",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPChargeProcedure.java"
         ],
         "dependencies": [
           {
@@ -564,33 +640,119 @@
           "src/main/resources/assets/magic/models/item/turtle_rod.json"
         ]
       }
+    },
+    {
+      "name": "MPUI",
+      "type": "overlay",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/screens/MPUIOverlay.java"
+        ]
+      }
+    },
+    {
+      "name": "MPUIText",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mpui_text",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/MPUITextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/MPUtils"
+    },
+    {
+      "name": "HasteStaffConfig",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_staff_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/HasteStaffConfigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RegenerateMPStaff",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regenerate_mp_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/regenerate_mp_staff.json",
+          "src/main/java/net/mcreator/magic/item/RegenerateMPStaffItem.java"
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "PlayerMP",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "10.0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.magic.sun_rod": "Sun Rod",
-      "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
+      "item.magic.blank_rod": "Blank Rod",
+      "item.magic.noon_rod": "Noon Rod",
+      "item.magic.sunrise_rod": "Sunrise Rod",
+      "item.magic.regenerate_mp_staff": "Regenerate MP Staff",
+      "block.magic.poison_pumpkin": "Poison Pumpkin",
+      "item.magic.day_rod": "Day Rod",
+      "item.magic.sun_rod": "Sun Rod",
+      "item.magic.midnight_rod": "Midnight Rod",
+      "item.magic.blankstaff": "Blankstaff",
+      "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_02": "Test 0 2",
       "block.magic.healflower": "Healflower",
       "item.magic.nantoka_rod": "Nantoka Rod",
-      "item.magic.noon_rod": "Noon Rod",
+      "entity.magic.test": "Test",
+      "item.magic.qwertyuiop": "Qwertyuiop",
+      "gui.magic.mpui.label_mp": "MP",
       "item.magic.sunset_rod": "Sunset Rod",
-      "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
-      "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
-      "item.magic.day_rod": "Day Rod",
       "item.magic.turtle_rod": "Turtle Rod"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "MPUtils",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "magic",
@@ -609,5 +771,5 @@
     "modElementsPackage": "net.mcreator.magic",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300336712
+  "mcreatorVersion": 202300452316
 }

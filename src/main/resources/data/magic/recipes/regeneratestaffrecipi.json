@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    "bc ",
+    "de "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "b": {
+      "item": "minecraft:ender_eye"
+    },
+    "c": {
+      "item": "magic:blankstaff"
+    },
+    "d": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "e": {
+      "item": "minecraft:blaze_powder"
+    }
+  },
+  "result": {
+    "item": "magic:regenerate_mp_staff",
+    "count": 1
+  }
+}
