@@ -630,6 +630,52 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "HasteStaff",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/HasteStaffItem.java",
+          "src/main/resources/assets/magic/models/item/haste_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "Hastestaff",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hastestaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/hastestaff.json"
+        ]
+      }
+    },
+    {
+      "name": "HasteStaffConfig",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_staff_config",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/HasteStaffConfigProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -646,6 +692,7 @@
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.night_rod": "Night Rod",
+      "item.magic.haste_staff": "Haste Staff",
       "item.magic.blankstaff": "Blankstaff",
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
