@@ -44,9 +44,9 @@ public class MagicModItems {
 	public static final RegistryObject<Item> TEST_01FIREBLOCK = block(MagicModBlocks.TEST_01FIREBLOCK);
 	public static final RegistryObject<Item> NANTOKA_ROD = REGISTRY.register("nantoka_rod", () -> new NantokaRodItem());
 	public static final RegistryObject<Item> TEST_02 = block(MagicModBlocks.TEST_02);
-	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
 	public static final RegistryObject<Item> QWERTYUIOP = REGISTRY.register("qwertyuiop", () -> new QwertyuiopItem());
 	public static final RegistryObject<Item> BLANKSTAFF = REGISTRY.register("blankstaff", () -> new BlankstaffItem());
+	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
