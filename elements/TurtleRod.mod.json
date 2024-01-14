@@ -1,14 +1,20 @@
 {
   "_fv": 57,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
+    "blockingRenderType": 0,
     "texture": "slownessstaff",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
+    "blockingModelName": "Normal blocking",
     "name": "Turtle Rod",
+    "specialInformation": {
+      "fixedValue": []
+    },
     "specialInformation": {
       "fixedValue": []
     },

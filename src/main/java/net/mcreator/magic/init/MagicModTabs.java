@@ -46,6 +46,7 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.WATERHAZARD.get());
 			tabData.accept(MagicModItems.WATERD_BUCKET.get());
 			tabData.accept(MagicModItems.BLANKSTAFF.get());
+			tabData.accept(MagicModItems.REGENERATE_MP_STAFF.get());
 			tabData.accept(MagicModItems.HASTE_STAFF.get());
 		}
 	}

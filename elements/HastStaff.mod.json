@@ -12,7 +12,7 @@
     "creativeTab": {
       "value": "TOOLS"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -27,8 +27,7 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": [],
-      "name": "MPUIText"
+      "fixedValue": []
     },
     "glowCondition": {
       "fixedValue": true
