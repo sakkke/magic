@@ -21,6 +21,7 @@ import net.mcreator.magic.item.SunriseRodItem;
 import net.mcreator.magic.item.SunRodItem;
 import net.mcreator.magic.item.RainRodItem;
 import net.mcreator.magic.item.QwertyuiopItem;
+import net.mcreator.magic.item.PartystaffItem;
 import net.mcreator.magic.item.NoonRodItem;
 import net.mcreator.magic.item.NightRodItem;
 import net.mcreator.magic.item.NantokaRodItem;
@@ -54,6 +55,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> WATERD_BUCKET = REGISTRY.register("waterd_bucket", () -> new WaterdItem());
 	public static final RegistryObject<Item> BLANKSTAFF = REGISTRY.register("blankstaff", () -> new BlankstaffItem());
 	public static final RegistryObject<Item> TURTLE_ROD = REGISTRY.register("turtle_rod", () -> new TurtleRodItem());
+	public static final RegistryObject<Item> PARTYSTAFF = REGISTRY.register("partystaff", () -> new PartystaffItem());
 	public static final RegistryObject<Item> HASTE_STAFF = REGISTRY.register("haste_staff", () -> new HasteStaffItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
