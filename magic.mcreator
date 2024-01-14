@@ -991,12 +991,10 @@
       "gui.magic.mpui.label_mp": "MP",
       "item.magic.waterhazard": "Waterhazard",
       "item.magic.waterd_bucket": "Waterd Bucket",
-      "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
       "block.magic.waterd": "Waterd",
-      "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
       "item.magic.turtle_rod": "Turtle Rod"
     }
