@@ -1,10 +1,12 @@
 {
   "item.magic.night_rod": "Night Rod",
+  "item.magic.partystaff": "Partystaff",
   "block.magic.test_01fireblock": "Test 0 1fireblock",
   "item.magic.blank_rod": "Blank Rod",
   "item.magic.noon_rod": "Noon Rod",
   "item.magic.sunrise_rod": "Sunrise Rod",
   "item.magic.regenerate_mp_staff": "Regenerate MP Staff",
+  "block.magic.waterd": "Waterd",
   "block.magic.poison_pumpkin": "Poison Pumpkin",
   "item.magic.day_rod": "Day Rod",
   "item.magic.sun_rod": "Sun Rod",
@@ -14,7 +16,6 @@
   "item.magic.test_spawn_egg": "Test Spawn Egg",
   "block.magic.test_02": "Test 0 2",
   "fluid.magic.waterd": "Waterd",
-  "item.magic.partystaff": "Partystaff",
   "block.magic.healflower": "Healflower",
   "item.magic.nantoka_rod": "Nantoka Rod",
   "entity.magic.test": "Test",
@@ -22,12 +23,9 @@
   "gui.magic.mpui.label_mp": "MP",
   "item.magic.waterhazard": "Waterhazard",
   "item.magic.waterd_bucket": "Waterd Bucket",
-  "item.magic.noon_rod": "Noon Rod",
   "item.magic.sunset_rod": "Sunset Rod",
   "item.magic.rain_rod": "Rain Rod",
   "item.magic.infinity_rod": "Infinity Rod",
-  "block.magic.waterd": "Waterd",
-  "block.magic.poison_pumpkin": "Poison Pumpkin",
   "item.magic.thunder_rod": "Thunder Rod",
   "item.magic.turtle_rod": "Turtle Rod"
 }
