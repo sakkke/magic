@@ -5,22 +5,22 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "slownessstaff",
+    "texture": "cracker",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
-    "name": "Turtle Rod",
+    "name": "Partystaff",
     "specialInformation": {
       "fixedValue": []
     },
     "creativeTab": {
       "value": "COMBAT"
     },
-    "harvestLevel": 1,
-    "efficiency": 1.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 6.0,
-    "usageCount": 432,
+    "harvestLevel": 4,
+    "efficiency": 10000.0,
+    "attackSpeed": 10.0,
+    "enchantability": 15,
+    "damageVsEntity": 2000.0,
+    "usageCount": 90000,
     "blocksAffected": [],
     "glowCondition": {
       "fixedValue": false
@@ -30,7 +30,7 @@
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
     "onRightClickedInAir": {
-      "name": "SlownessStaffToEnemy"
+      "name": "PartystaffYoukuritukusitatoki"
     }
   }
 }

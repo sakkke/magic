@@ -594,8 +594,56 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/MPUtils"
+      }
+    },
+    {
+      "name": "SlownessStaffToEnemy",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slowness_staff_to_enemy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/SlownessStaffToEnemyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TurtleRod",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/TurtleRodItem.java",
+          "src/main/resources/assets/magic/models/item/turtle_rod.json"
+        ]
+      }
     },
     {
       "name": "MPUI",
@@ -630,6 +678,55 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "PartystaffYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/PartystaffYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Partystaff",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/partystaff.json",
+          "src/main/java/net/mcreator/magic/item/PartystaffItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -650,6 +747,7 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
+      "item.magic.partystaff": "Partystaff",
       "block.magic.healflower": "Healflower",
       "item.magic.blank_rod": "Blank Rod",
       "item.magic.nantoka_rod": "Nantoka Rod",
@@ -663,7 +761,8 @@
       "item.magic.infinity_rod": "Infinity Rod",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
-      "item.magic.day_rod": "Day Rod"
+      "item.magic.day_rod": "Day Rod",
+      "item.magic.turtle_rod": "Turtle Rod"
     }
   },
   "foldersRoot": {

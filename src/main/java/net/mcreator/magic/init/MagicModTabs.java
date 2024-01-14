@@ -34,6 +34,7 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.NOON_ROD.get());
 			tabData.accept(MagicModItems.MIDNIGHT_ROD.get());
 			tabData.accept(MagicModItems.TURTLE_ROD.get());
+			tabData.accept(MagicModItems.PARTYSTAFF.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

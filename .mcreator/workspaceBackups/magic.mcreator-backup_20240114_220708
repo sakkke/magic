@@ -678,6 +678,55 @@
         ]
       },
       "path": "~/MPUtils"
+    },
+    {
+      "name": "PartystaffYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/PartystaffYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Partystaff",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/partystaff.json",
+          "src/main/java/net/mcreator/magic/item/PartystaffItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -698,6 +747,7 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
+      "item.magic.partystaff": "Partystaff",
       "block.magic.healflower": "Healflower",
       "item.magic.blank_rod": "Blank Rod",
       "item.magic.nantoka_rod": "Nantoka Rod",
