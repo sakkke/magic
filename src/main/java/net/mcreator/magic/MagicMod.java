@@ -33,6 +33,7 @@ import net.mcreator.magic.init.MagicModTabs;
 import net.mcreator.magic.init.MagicModItems;
 import net.mcreator.magic.init.MagicModFluids;
 import net.mcreator.magic.init.MagicModFluidTypes;
+import net.mcreator.magic.init.MagicModEntities;
 import net.mcreator.magic.init.MagicModBlocks;
 
 import java.util.function.Supplier;
@@ -56,6 +57,7 @@ public class MagicMod {
 		MagicModBlocks.REGISTRY.register(bus);
 
 		MagicModItems.REGISTRY.register(bus);
+		MagicModEntities.REGISTRY.register(bus);
 
 		MagicModTabs.REGISTRY.register(bus);
 

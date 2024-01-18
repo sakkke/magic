@@ -7,6 +7,7 @@ package net.mcreator.magic.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -57,6 +58,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> PARTYSTAFF = REGISTRY.register("partystaff", () -> new PartystaffItem());
 	public static final RegistryObject<Item> REGENERATE_MP_STAFF = REGISTRY.register("regenerate_mp_staff", () -> new RegenerateMPStaffItem());
 	public static final RegistryObject<Item> HASTE_STAFF = REGISTRY.register("haste_staff", () -> new HastStaffItem());
+	public static final RegistryObject<Item> RED_GHAST_SPAWN_EGG = REGISTRY.register("red_ghast_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.RED_GHAST, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
