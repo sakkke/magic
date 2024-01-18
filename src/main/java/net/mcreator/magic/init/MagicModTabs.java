@@ -35,6 +35,7 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.MIDNIGHT_ROD.get());
 			tabData.accept(MagicModItems.TURTLE_ROD.get());
 			tabData.accept(MagicModItems.PARTYSTAFF.get());
+			tabData.accept(MagicModItems.THUNDERBOLT_ROD.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {

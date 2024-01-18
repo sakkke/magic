@@ -13,43 +13,43 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.network.chat.Component;
 
-import net.mcreator.magic.procedures.SlownessStaffToEnemyProcedure;
+import net.mcreator.magic.procedures.ThunderboltRodRightclickedProcedure;
 
 import java.util.List;
 
-public class TurtleRodItem extends SwordItem {
-	public TurtleRodItem() {
+public class ThunderboltRodItem extends SwordItem {
+	public ThunderboltRodItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 432;
+				return 90000;
 			}
 
 			public float getSpeed() {
-				return 1f;
+				return 10000f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 1998f;
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of();
 			}
-		}, 3, -3f, new Item.Properties().fireResistant());
+		}, 3, 6f, new Item.Properties().fireResistant());
 	}
 
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		SlownessStaffToEnemyProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ());
+		ThunderboltRodRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return ar;
 	}
 
