@@ -979,6 +979,10 @@
       "metadata": {
         "files": [
           "src/main/resources/data/magic/recipes/houki_recipe.json"
+        ]
+      }
+    },
+    {
       "name": "Portal",
       "type": "livingentity",
       "sortid": 28,
@@ -1040,9 +1044,7 @@
       "item.magic.green_ghast_spawn_egg": "Green Ghast Spawn Egg",
       "item.magic.sunset_rod": "Sunset Rod",
       "entity.magic.portal": "Portal",
-      "item.magic.noon_rod": "Noon Rod",
       "item.magic.portal_spawn_egg": "Portal Spawn Egg",
-      "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
       "item.magic.thunder_rod": "Thunder Rod",
