@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.magic.entity.RedGhastEntity;
+import net.mcreator.magic.entity.BlueGhastEntity;
 import net.mcreator.magic.MagicMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -24,6 +25,10 @@ public class MagicModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, MagicMod.MODID);
 	public static final RegistryObject<EntityType<RedGhastEntity>> RED_GHAST = register("red_ghast",
 			EntityType.Builder.<RedGhastEntity>of(RedGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RedGhastEntity::new)
+
+					.sized(1f, 1f));
+	public static final RegistryObject<EntityType<BlueGhastEntity>> BLUE_GHAST = register("blue_ghast",
+			EntityType.Builder.<BlueGhastEntity>of(BlueGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueGhastEntity::new)
 
 					.sized(1f, 1f));
 
@@ -35,11 +40,13 @@ public class MagicModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			RedGhastEntity.init();
+			BlueGhastEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RED_GHAST.get(), RedGhastEntity.createAttributes().build());
+		event.put(BLUE_GHAST.get(), BlueGhastEntity.createAttributes().build());
 	}
 }

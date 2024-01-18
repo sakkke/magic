@@ -39,6 +39,7 @@ public class MagicModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(MagicModItems.RED_GHAST_SPAWN_EGG.get());
+			tabData.accept(MagicModItems.BLUE_GHAST_SPAWN_EGG.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

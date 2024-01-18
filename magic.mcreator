@@ -920,6 +920,22 @@
           "src/main/java/net/mcreator/magic/entity/RedGhastEntity.java"
         ]
       }
+    },
+    {
+      "name": "BlueGhast",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ghast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/BlueGhastRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/BlueGhastEntity.java",
+          "src/main/resources/data/magic/forge/biome_modifier/blue_ghast_biome_modifier.json",
+          "src/main/resources/assets/magic/models/item/blue_ghast_spawn_egg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -936,6 +952,7 @@
       "item.magic.night_rod": "Night Rod",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
       "item.magic.partystaff": "Partystaff",
+      "item.magic.blue_ghast_spawn_egg": "Blue Ghast Spawn Egg",
       "item.magic.blank_rod": "Blank Rod",
       "item.magic.red_ghast_spawn_egg": "Red Ghast Spawn Egg",
       "item.magic.noon_rod": "Noon Rod",
@@ -959,6 +976,7 @@
       "item.magic.waterhazard": "Waterhazard",
       "item.magic.waterd_bucket": "Waterd Bucket",
       "entity.magic.red_ghast": "Red Ghast",
+      "entity.magic.blue_ghast": "Blue Ghast",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",

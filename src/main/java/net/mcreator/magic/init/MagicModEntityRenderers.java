@@ -10,11 +10,13 @@ import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.mcreator.magic.client.renderer.RedGhastRenderer;
+import net.mcreator.magic.client.renderer.BlueGhastRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MagicModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(MagicModEntities.RED_GHAST.get(), RedGhastRenderer::new);
+		event.registerEntityRenderer(MagicModEntities.BLUE_GHAST.get(), BlueGhastRenderer::new);
 	}
 }
