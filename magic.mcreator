@@ -968,6 +968,19 @@
           "src/main/resources/data/magic/forge/biome_modifier/houki_biome_modifier.json"
         ]
       }
+    },
+    {
+      "name": "HoukiRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houki_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/houki_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
