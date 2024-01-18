@@ -13,6 +13,7 @@ import net.mcreator.magic.client.renderer.RedGhastRenderer;
 import net.mcreator.magic.client.renderer.HoukiRenderer;
 import net.mcreator.magic.client.renderer.GreenGhastRenderer;
 import net.mcreator.magic.client.renderer.BlueGhastRenderer;
+import net.mcreator.magic.client.renderer.PortalRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class MagicModEntityRenderers {
@@ -22,5 +23,6 @@ public class MagicModEntityRenderers {
 		event.registerEntityRenderer(MagicModEntities.BLUE_GHAST.get(), BlueGhastRenderer::new);
 		event.registerEntityRenderer(MagicModEntities.GREEN_GHAST.get(), GreenGhastRenderer::new);
 		event.registerEntityRenderer(MagicModEntities.HOUKI.get(), HoukiRenderer::new);
+		event.registerEntityRenderer(MagicModEntities.PORTAL.get(), PortalRenderer::new);
 	}
 }

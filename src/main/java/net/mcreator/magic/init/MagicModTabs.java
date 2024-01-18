@@ -44,6 +44,10 @@ public class MagicModTabs {
 			tabData.accept(MagicModItems.HOUKI_SPAWN_EGG.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(MagicModItems.PORTAL_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(MagicModBlocks.POISON_PUMPKIN.get().asItem());
 		}

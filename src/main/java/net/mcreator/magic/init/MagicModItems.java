@@ -62,6 +62,7 @@ public class MagicModItems {
 	public static final RegistryObject<Item> BLUE_GHAST_SPAWN_EGG = REGISTRY.register("blue_ghast_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.BLUE_GHAST, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> GREEN_GHAST_SPAWN_EGG = REGISTRY.register("green_ghast_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.GREEN_GHAST, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> HOUKI_SPAWN_EGG = REGISTRY.register("houki_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.HOUKI, -1, -1, new Item.Properties()));
+	public static final RegistryObject<Item> PORTAL_SPAWN_EGG = REGISTRY.register("portal_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.PORTAL, -1, -1, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

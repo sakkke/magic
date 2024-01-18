@@ -20,6 +20,7 @@ import net.mcreator.magic.entity.RedGhastEntity;
 import net.mcreator.magic.entity.HoukiEntity;
 import net.mcreator.magic.entity.GreenGhastEntity;
 import net.mcreator.magic.entity.BlueGhastEntity;
+import net.mcreator.magic.entity.PortalEntity;
 import net.mcreator.magic.MagicMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -41,6 +42,10 @@ public class MagicModEntities {
 			EntityType.Builder.<HoukiEntity>of(HoukiEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(HoukiEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<PortalEntity>> PORTAL = register("portal",
+			EntityType.Builder.<PortalEntity>of(PortalEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PortalEntity::new)
+
+					.sized(0.9f, 0.1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -53,6 +58,7 @@ public class MagicModEntities {
 			BlueGhastEntity.init();
 			GreenGhastEntity.init();
 			HoukiEntity.init();
+			PortalEntity.init();
 		});
 	}
 
@@ -62,5 +68,6 @@ public class MagicModEntities {
 		event.put(BLUE_GHAST.get(), BlueGhastEntity.createAttributes().build());
 		event.put(GREEN_GHAST.get(), GreenGhastEntity.createAttributes().build());
 		event.put(HOUKI.get(), HoukiEntity.createAttributes().build());
+		event.put(PORTAL.get(), PortalEntity.createAttributes().build());
 	}
 }
