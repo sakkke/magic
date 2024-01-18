@@ -1,0 +1,3 @@
+[submodule "magic-special"]
+	path = magic-special
+	url = https://github.com/sakkke/magic-special.git
