@@ -5,7 +5,7 @@
     "toolType": "Sword",
     "renderType": 0,
     "blockingRenderType": 0,
-    "texture": "sun_rod",
+    "texture": "fire_rod",
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Sun Rod",
@@ -22,6 +22,9 @@
     "damageVsEntity": 4.0,
     "usageCount": 100,
     "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

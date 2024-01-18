@@ -891,6 +891,203 @@
           "src/main/java/net/mcreator/magic/item/WaterdItem.java"
         ]
       }
+    },
+    {
+      "name": "InfinityRodRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infinity_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/infinity_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RedGhast",
+      "type": "livingentity",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ghast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/RedGhastRenderer.java",
+          "src/main/resources/assets/magic/models/item/red_ghast_spawn_egg.json",
+          "src/main/resources/data/magic/forge/biome_modifier/red_ghast_biome_modifier.json",
+          "src/main/java/net/mcreator/magic/entity/RedGhastEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "BlueGhast",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_ghast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/BlueGhastRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/BlueGhastEntity.java",
+          "src/main/resources/data/magic/forge/biome_modifier/blue_ghast_biome_modifier.json",
+          "src/main/resources/assets/magic/models/item/blue_ghast_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenGhast",
+      "type": "livingentity",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_ghast",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/entity/GreenGhastEntity.java",
+          "src/main/java/net/mcreator/magic/client/renderer/GreenGhastRenderer.java",
+          "src/main/resources/data/magic/forge/biome_modifier/green_ghast_biome_modifier.json",
+          "src/main/resources/assets/magic/models/item/green_ghast_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Houki",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/HoukiRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/HoukiEntity.java",
+          "src/main/resources/assets/magic/models/item/houki_spawn_egg.json",
+          "src/main/resources/data/magic/forge/biome_modifier/houki_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "HoukiRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houki_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/houki_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Portal",
+      "type": "livingentity",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/forge/biome_modifier/portal_biome_modifier.json",
+          "src/main/resources/assets/magic/models/item/portal_spawn_egg.json",
+          "src/main/java/net/mcreator/magic/client/renderer/PortalRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/PortalEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RainRodRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/rain_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThunderRodRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/thunder_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SunRodRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/sun_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DayRodRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/day_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NightRodRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/night_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleRodRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/turtle_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PartystaffRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/partystaff_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -905,15 +1102,20 @@
   "language_map": {
     "en_us": {
       "item.magic.night_rod": "Night Rod",
+      "entity.magic.green_ghast": "Green Ghast",
       "item.magic.partystaff": "Partystaff",
       "block.magic.test_01fireblock": "Test 0 1fireblock",
+      "item.magic.blue_ghast_spawn_egg": "Blue Ghast Spawn Egg",
       "item.magic.blank_rod": "Blank Rod",
+      "item.magic.red_ghast_spawn_egg": "Red Ghast Spawn Egg",
       "item.magic.noon_rod": "Noon Rod",
+      "item.magic.portal_spawn_egg": "Portal Spawn Egg",
       "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.regenerate_mp_staff": "Regenerate MP Staff",
       "block.magic.waterd": "Waterd",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.day_rod": "Day Rod",
+      "item.magic.houki_spawn_egg": "Houki Spawn Egg",
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.haste_staff": "Haste Staff",
@@ -921,6 +1123,7 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_02": "Test 0 2",
       "fluid.magic.waterd": "Waterd",
+      "entity.magic.houki": "Houki",
       "block.magic.healflower": "Healflower",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
@@ -928,6 +1131,10 @@
       "gui.magic.mpui.label_mp": "MP",
       "item.magic.waterhazard": "Waterhazard",
       "item.magic.waterd_bucket": "Waterd Bucket",
+      "entity.magic.red_ghast": "Red Ghast",
+      "entity.magic.portal": "Portal",
+      "entity.magic.blue_ghast": "Blue Ghast",
+      "item.magic.green_ghast_spawn_egg": "Green Ghast Spawn Egg",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",

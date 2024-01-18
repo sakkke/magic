@@ -103,8 +103,8 @@
       "registry_name": "sun_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/sun_rod.json",
-          "src/main/java/net/mcreator/magic/item/SunRodItem.java"
+          "src/main/java/net/mcreator/magic/item/SunRodItem.java",
+          "src/main/resources/assets/magic/models/item/sun_rod.json"
         ]
       }
     },
