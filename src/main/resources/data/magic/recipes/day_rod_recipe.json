@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:compass"
+    },
+    "b": {
+      "item": "magic:blankstaff"
+    }
+  },
+  "result": {
+    "item": "magic:day_rod",
+    "count": 1
+  }
+}

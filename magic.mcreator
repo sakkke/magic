@@ -997,6 +997,97 @@
           "src/main/java/net/mcreator/magic/entity/PortalEntity.java"
         ]
       }
+    },
+    {
+      "name": "RainRodRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rain_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/rain_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ThunderRodRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/thunder_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SunRodRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sun_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/sun_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DayRodRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/day_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "NightRodRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/night_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TurtleRodRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "turtle_rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/turtle_rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PartystaffRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/partystaff_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
