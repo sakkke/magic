@@ -952,6 +952,22 @@
           "src/main/resources/assets/magic/models/item/green_ghast_spawn_egg.json"
         ]
       }
+    },
+    {
+      "name": "Houki",
+      "type": "livingentity",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "houki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/client/renderer/HoukiRenderer.java",
+          "src/main/java/net/mcreator/magic/entity/HoukiEntity.java",
+          "src/main/resources/assets/magic/models/item/houki_spawn_egg.json",
+          "src/main/resources/data/magic/forge/biome_modifier/houki_biome_modifier.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -978,6 +994,7 @@
       "block.magic.waterd": "Waterd",
       "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.day_rod": "Day Rod",
+      "item.magic.houki_spawn_egg": "Houki Spawn Egg",
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
       "item.magic.haste_staff": "Haste Staff",
@@ -985,6 +1002,7 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_02": "Test 0 2",
       "fluid.magic.waterd": "Waterd",
+      "entity.magic.houki": "Houki",
       "block.magic.healflower": "Healflower",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
