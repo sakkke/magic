@@ -103,8 +103,8 @@
       "registry_name": "sun_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/SunRodItem.java",
-          "src/main/resources/assets/magic/models/item/sun_rod.json"
+          "src/main/resources/assets/magic/models/item/sun_rod.json",
+          "src/main/java/net/mcreator/magic/item/SunRodItem.java"
         ]
       }
     },
@@ -164,8 +164,8 @@
         "files": [
           "src/main/java/net/mcreator/magic/block/PoisonPumpkinBlock.java",
           "src/main/resources/assets/magic/blockstates/poison_pumpkin.json",
-          "src/main/resources/assets/magic/models/block/poison_pumpkin.json",
-          "src/main/resources/assets/magic/models/item/poison_pumpkin.json"
+          "src/main/resources/assets/magic/models/item/poison_pumpkin.json",
+          "src/main/resources/assets/magic/models/block/poison_pumpkin.json"
         ]
       }
     },
@@ -209,8 +209,8 @@
       "registry_name": "day_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/DayRodItem.java",
-          "src/main/resources/assets/magic/models/item/day_rod.json"
+          "src/main/resources/assets/magic/models/item/day_rod.json",
+          "src/main/java/net/mcreator/magic/item/DayRodItem.java"
         ]
       }
     },
@@ -254,8 +254,8 @@
       "registry_name": "sunrise_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/sunrise_rod.json",
-          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java"
+          "src/main/java/net/mcreator/magic/item/SunriseRodItem.java",
+          "src/main/resources/assets/magic/models/item/sunrise_rod.json"
         ]
       }
     },
@@ -344,8 +344,8 @@
       "registry_name": "night_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/NightRodItem.java",
-          "src/main/resources/assets/magic/models/item/night_rod.json"
+          "src/main/resources/assets/magic/models/item/night_rod.json",
+          "src/main/java/net/mcreator/magic/item/NightRodItem.java"
         ]
       }
     },
@@ -389,8 +389,8 @@
       "registry_name": "noon_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/noon_rod.json",
-          "src/main/java/net/mcreator/magic/item/NoonRodItem.java"
+          "src/main/java/net/mcreator/magic/item/NoonRodItem.java",
+          "src/main/resources/assets/magic/models/item/noon_rod.json"
         ]
       }
     },
@@ -434,8 +434,8 @@
       "registry_name": "midnight_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/midnight_rod.json",
-          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java"
+          "src/main/java/net/mcreator/magic/item/MidnightRodItem.java",
+          "src/main/resources/assets/magic/models/item/midnight_rod.json"
         ]
       }
     },
@@ -449,9 +449,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/block/Test01fireblockBlock.java",
+          "src/main/resources/assets/magic/models/item/test_01fireblock.json",
           "src/main/resources/assets/magic/blockstates/test_01fireblock.json",
-          "src/main/resources/assets/magic/models/block/test_01fireblock.json",
-          "src/main/resources/assets/magic/models/item/test_01fireblock.json"
+          "src/main/resources/assets/magic/models/block/test_01fireblock.json"
         ]
       }
     },
@@ -464,8 +464,8 @@
       "registry_name": "nantoka_rod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/nantoka_rod.json",
-          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java"
+          "src/main/java/net/mcreator/magic/item/NantokaRodItem.java",
+          "src/main/resources/assets/magic/models/item/nantoka_rod.json"
         ]
       }
     },
@@ -509,8 +509,8 @@
       "registry_name": "test_02",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/block/test_02.json",
           "src/main/resources/assets/magic/blockstates/test_02.json",
+          "src/main/resources/assets/magic/models/block/test_02.json",
           "src/main/resources/assets/magic/models/item/test_02.json",
           "src/main/java/net/mcreator/magic/block/Test02Block.java"
         ]
@@ -525,8 +525,8 @@
       "registry_name": "qwertyuiop",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java",
-          "src/main/resources/assets/magic/models/item/qwertyuiop.json"
+          "src/main/resources/assets/magic/models/item/qwertyuiop.json",
+          "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java"
         ]
       }
     },
@@ -539,8 +539,8 @@
       "registry_name": "blankstaff",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/magic/item/BlankstaffItem.java",
-          "src/main/resources/assets/magic/models/item/blankstaff.json"
+          "src/main/resources/assets/magic/models/item/blankstaff.json",
+          "src/main/java/net/mcreator/magic/item/BlankstaffItem.java"
         ]
       }
     },
@@ -609,13 +609,10 @@
         ],
         "dependencies": [
           {
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_211112
             "name": "entity",
             "type": "entity"
           },
           {
-========
->>>>>>>> pr/49:.mcreator/workspaceBackups/magic.mcreator-backup_20240112_110423
             "name": "x",
             "type": "number"
           },
@@ -683,7 +680,6 @@
       "path": "~/MPUtils"
     },
     {
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_211112
       "name": "PartystaffYoukuritukusitatoki",
       "type": "procedure",
       "sortid": 30,
@@ -693,7 +689,46 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/procedures/PartystaffYoukuritukusitatokiProcedure.java"
-========
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Partystaff",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "partystaff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/partystaff.json",
+          "src/main/java/net/mcreator/magic/item/PartystaffItem.java"
+        ]
+      }
+    },
+    {
       "name": "HasteStaff",
       "type": "item",
       "sortid": 30,
@@ -730,14 +765,81 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/procedures/HasteStaffConfigProcedure.java"
->>>>>>>> pr/49:.mcreator/workspaceBackups/magic.mcreator-backup_20240112_110423
         ],
         "dependencies": [
           {
             "name": "entity",
             "type": "entity"
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_211112
-          },
+          }
+        ]
+      }
+    },
+    {
+      "name": "RegenerateMPStaff",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regenerate_mp_staff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/regenerate_mp_staff.json",
+          "src/main/java/net/mcreator/magic/item/RegenerateMPStaffItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HastStaff",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_staff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/HastStaffItem.java",
+          "src/main/resources/assets/magic/models/item/haste_staff.json"
+        ]
+      }
+    },
+    {
+      "name": "Regeneratestaffrecipi",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneratestaffrecipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/regeneratestaffrecipi.json"
+        ]
+      }
+    },
+    {
+      "name": "Hasterecipi",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hasterecipi",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/magic/recipes/hasterecipi.json"
+        ]
+      }
+    },
+    {
+      "name": "WaterhazardYoukuritukusitatoki",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterhazard_youkuritukusitatoki",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/procedures/WaterhazardYoukuritukusitatokiProcedure.java"
+        ],
+        "dependencies": [
           {
             "name": "x",
             "type": "number"
@@ -758,23 +860,37 @@
       }
     },
     {
-      "name": "Partystaff",
+      "name": "Waterhazard",
       "type": "tool",
-      "sortid": 31,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "partystaff",
+      "registry_name": "waterhazard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/magic/models/item/partystaff.json",
-          "src/main/java/net/mcreator/magic/item/PartystaffItem.java"
+          "src/main/resources/assets/magic/models/item/waterhazard.json",
+          "src/main/java/net/mcreator/magic/item/WaterhazardItem.java"
         ]
       }
-========
-          }
+    },
+    {
+      "name": "Waterd",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waterd",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/magic/models/item/waterd_bucket.json",
+          "src/main/java/net/mcreator/magic/block/WaterdBlock.java",
+          "src/main/java/net/mcreator/magic/fluid/types/WaterdFluidType.java",
+          "src/main/resources/assets/magic/models/block/waterd.json",
+          "src/main/resources/assets/magic/blockstates/waterd.json",
+          "src/main/java/net/mcreator/magic/fluid/WaterdFluid.java",
+          "src/main/java/net/mcreator/magic/item/WaterdItem.java"
         ]
       }
->>>>>>>> pr/49:.mcreator/workspaceBackups/magic.mcreator-backup_20240112_110423
     }
   ],
   "variable_elements": [
@@ -788,29 +904,34 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.magic.night_rod": "Night Rod",
+      "item.magic.partystaff": "Partystaff",
+      "block.magic.test_01fireblock": "Test 0 1fireblock",
+      "item.magic.blank_rod": "Blank Rod",
+      "item.magic.noon_rod": "Noon Rod",
+      "item.magic.sunrise_rod": "Sunrise Rod",
+      "item.magic.regenerate_mp_staff": "Regenerate MP Staff",
+      "block.magic.waterd": "Waterd",
+      "block.magic.poison_pumpkin": "Poison Pumpkin",
+      "item.magic.day_rod": "Day Rod",
       "item.magic.sun_rod": "Sun Rod",
       "item.magic.midnight_rod": "Midnight Rod",
-      "item.magic.night_rod": "Night Rod",
       "item.magic.haste_staff": "Haste Staff",
       "item.magic.blankstaff": "Blankstaff",
       "item.magic.test_spawn_egg": "Test Spawn Egg",
-      "block.magic.test_01fireblock": "Test 0 1fireblock",
       "block.magic.test_02": "Test 0 2",
-      "item.magic.partystaff": "Partystaff",
+      "fluid.magic.waterd": "Waterd",
       "block.magic.healflower": "Healflower",
-      "item.magic.blank_rod": "Blank Rod",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
       "gui.magic.mpui.label_mp": "MP",
-      "item.magic.noon_rod": "Noon Rod",
+      "item.magic.waterhazard": "Waterhazard",
+      "item.magic.waterd_bucket": "Waterd Bucket",
       "item.magic.sunset_rod": "Sunset Rod",
-      "item.magic.sunrise_rod": "Sunrise Rod",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
-      "block.magic.poison_pumpkin": "Poison Pumpkin",
       "item.magic.thunder_rod": "Thunder Rod",
-      "item.magic.day_rod": "Day Rod",
       "item.magic.turtle_rod": "Turtle Rod"
     }
   },
