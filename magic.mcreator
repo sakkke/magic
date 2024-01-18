@@ -1106,6 +1106,48 @@
           }
         ]
       }
+    },
+    {
+      "name": "RedCrystal",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/RedCrystalItem.java",
+          "src/main/resources/assets/magic/models/item/red_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "GreenCrystal",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "green_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/GreenCrystalItem.java",
+          "src/main/resources/assets/magic/models/item/green_crystal.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueCrystal",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_crystal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/magic/item/BlueCrystalItem.java",
+          "src/main/resources/assets/magic/models/item/blue_crystal.json"
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -1142,7 +1184,9 @@
       "item.magic.test_spawn_egg": "Test Spawn Egg",
       "block.magic.test_02": "Test 0 2",
       "fluid.magic.waterd": "Waterd",
+      "item.magic.green_crystal": "Green Crystal",
       "entity.magic.houki": "Houki",
+      "item.magic.red_crystal": "Red Crystal",
       "block.magic.healflower": "Healflower",
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
@@ -1155,6 +1199,7 @@
       "entity.magic.blue_ghast": "Blue Ghast",
       "item.magic.green_ghast_spawn_egg": "Green Ghast Spawn Egg",
       "item.magic.sunset_rod": "Sunset Rod",
+      "item.magic.blue_crystal": "Blue Crystal",
       "item.magic.rain_rod": "Rain Rod",
       "item.magic.infinity_rod": "Infinity Rod",
       "item.magic.thunder_rod": "Thunder Rod",

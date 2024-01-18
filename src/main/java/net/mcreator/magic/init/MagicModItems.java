@@ -22,6 +22,7 @@ import net.mcreator.magic.item.SunsetRodItem;
 import net.mcreator.magic.item.SunriseRodItem;
 import net.mcreator.magic.item.SunRodItem;
 import net.mcreator.magic.item.RegenerateMPStaffItem;
+import net.mcreator.magic.item.RedCrystalItem;
 import net.mcreator.magic.item.RainRodItem;
 import net.mcreator.magic.item.QwertyuiopItem;
 import net.mcreator.magic.item.PartystaffItem;
@@ -31,7 +32,9 @@ import net.mcreator.magic.item.NantokaRodItem;
 import net.mcreator.magic.item.MidnightRodItem;
 import net.mcreator.magic.item.InfinityRodItem;
 import net.mcreator.magic.item.HastStaffItem;
+import net.mcreator.magic.item.GreenCrystalItem;
 import net.mcreator.magic.item.DayRodItem;
+import net.mcreator.magic.item.BlueCrystalItem;
 import net.mcreator.magic.item.BlankstaffItem;
 import net.mcreator.magic.MagicMod;
 
@@ -65,6 +68,9 @@ public class MagicModItems {
 	public static final RegistryObject<Item> GREEN_GHAST_SPAWN_EGG = REGISTRY.register("green_ghast_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.GREEN_GHAST, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> HOUKI_SPAWN_EGG = REGISTRY.register("houki_spawn_egg", () -> new ForgeSpawnEggItem(MagicModEntities.HOUKI, -1, -1, new Item.Properties()));
 	public static final RegistryObject<Item> THUNDERBOLT_ROD = REGISTRY.register("thunderbolt_rod", () -> new ThunderboltRodItem());
+	public static final RegistryObject<Item> RED_CRYSTAL = REGISTRY.register("red_crystal", () -> new RedCrystalItem());
+	public static final RegistryObject<Item> GREEN_CRYSTAL = REGISTRY.register("green_crystal", () -> new GreenCrystalItem());
+	public static final RegistryObject<Item> BLUE_CRYSTAL = REGISTRY.register("blue_crystal", () -> new BlueCrystalItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
