@@ -520,8 +520,6 @@
       "name": "Qwertyuiop",
       "type": "tool",
       "sortid": 23,
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
-========
       "compiles": true,
       "locked_code": false,
       "registry_name": "qwertyuiop",
@@ -529,31 +527,6 @@
         "files": [
           "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java",
           "src/main/resources/assets/magic/models/item/qwertyuiop.json"
-        ]
-      }
-    },
-    {
-      "name": "Healflower",
-      "type": "plant",
-      "sortid": 21,
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "qwertyuiop",
-      "metadata": {
-        "files": [
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
-          "src/main/java/net/mcreator/magic/item/QwertyuiopItem.java",
-          "src/main/resources/assets/magic/models/item/qwertyuiop.json"
-========
-          "src/main/resources/data/magic/forge/biome_modifier/healflower_biome_modifier.json",
-          "src/main/resources/assets/magic/blockstates/healflower.json",
-          "src/main/resources/assets/magic/models/block/healflower.json",
-          "src/main/resources/assets/magic/models/item/healflower.json",
-          "src/main/java/net/mcreator/magic/block/HealflowerBlock.java",
-          "src/main/resources/data/magic/worldgen/placed_feature/healflower.json",
-          "src/main/resources/data/magic/worldgen/configured_feature/healflower.json"
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
         ]
       }
     },
@@ -561,7 +534,6 @@
       "name": "Blankstaff",
       "type": "item",
       "sortid": 24,
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
       "compiles": true,
       "locked_code": false,
       "registry_name": "blankstaff",
@@ -582,44 +554,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/magic/recipes/blankstaff_recipi.json"
-========
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blankstaff",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/item/BlankstaffItem.java",
-          "src/main/resources/assets/magic/models/item/blankstaff.json"
-        ]
-      }
-    },
-    {
-      "name": "BlankstaffRecipi",
-      "type": "recipe",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blankstaff_recipi",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/magic/recipes/blankstaff_recipi.json"
-        ]
-      }
-    },
-    {
-      "name": "Test",
-      "type": "livingentity",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/client/renderer/TestRenderer.java",
-          "src/main/java/net/mcreator/magic/entity/TestEntity.java",
-          "src/main/resources/assets/magic/models/item/test_spawn_egg.json",
-          "src/main/resources/data/magic/forge/biome_modifier/test_biome_modifier.json"
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
         ]
       }
     },
@@ -633,7 +567,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/procedures/MPUseProcedure.java"
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
         ],
         "dependencies": [
           {
@@ -654,8 +587,6 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/magic/procedures/MPChargeProcedure.java"
-========
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
         ],
         "dependencies": [
           {
@@ -663,7 +594,6 @@
             "type": "entity"
           }
         ]
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
       }
     },
     {
@@ -679,10 +609,13 @@
         ],
         "dependencies": [
           {
+<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
             "name": "entity",
             "type": "entity"
           },
           {
+========
+>>>>>>>> apply-assets:.mcreator/workspaceBackups/magic.mcreator-backup_20240112_095418
             "name": "x",
             "type": "number"
           },
@@ -739,21 +672,6 @@
         "return_type": "string",
         "files": [
           "src/main/java/net/mcreator/magic/procedures/MPUITextProcedure.java"
-========
-      },
-      "path": "~/MPUtils"
-    },
-    {
-      "name": "MPCharge",
-      "type": "procedure",
-      "sortid": 27,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mp_charge",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/magic/procedures/MPChargeProcedure.java"
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
         ],
         "dependencies": [
           {
@@ -763,7 +681,6 @@
         ]
       },
       "path": "~/MPUtils"
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
     },
     {
       "name": "PartystaffYoukuritukusitatoki",
@@ -813,8 +730,6 @@
           "src/main/java/net/mcreator/magic/item/PartystaffItem.java"
         ]
       }
-========
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
     }
   ],
   "variable_elements": [
@@ -841,10 +756,7 @@
       "item.magic.nantoka_rod": "Nantoka Rod",
       "entity.magic.test": "Test",
       "item.magic.qwertyuiop": "Qwertyuiop",
-<<<<<<<< HEAD:.mcreator/workspaceBackups/magic.mcreator-backup_20240114_141524
       "gui.magic.mpui.label_mp": "MP",
-========
->>>>>>>> portal:.mcreator/workspaceBackups/magic.mcreator-backup_20240109_191825
       "item.magic.noon_rod": "Noon Rod",
       "item.magic.sunset_rod": "Sunset Rod",
       "item.magic.sunrise_rod": "Sunrise Rod",
