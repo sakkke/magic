@@ -9,8 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.mcreator.magic.client.model.Modelhouki;
 import net.mcreator.magic.client.model.Modelportal;
+import net.mcreator.magic.client.model.Modelhouki;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class MagicModModels {

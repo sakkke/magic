@@ -78,12 +78,12 @@
     "pushedByFluids": {
       "fixedValue": true
     },
-    "flyingMob": false,
+    "flyingMob": true,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "disableCollisions": false,
-    "ridable": false,
+    "ridable": true,
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": false,
