@@ -31,15 +31,15 @@ public class MagicModEntities {
 
 					.sized(0.9f, 0.1f));
 	public static final RegistryObject<EntityType<RedGhastEntity>> RED_GHAST = register("red_ghast",
-			EntityType.Builder.<RedGhastEntity>of(RedGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RedGhastEntity::new)
+			EntityType.Builder.<RedGhastEntity>of(RedGhastEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RedGhastEntity::new)
 
 					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<BlueGhastEntity>> BLUE_GHAST = register("blue_ghast",
-			EntityType.Builder.<BlueGhastEntity>of(BlueGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueGhastEntity::new)
+			EntityType.Builder.<BlueGhastEntity>of(BlueGhastEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueGhastEntity::new)
 
 					.sized(1f, 1f));
 	public static final RegistryObject<EntityType<GreenGhastEntity>> GREEN_GHAST = register("green_ghast",
-			EntityType.Builder.<GreenGhastEntity>of(GreenGhastEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GreenGhastEntity::new)
+			EntityType.Builder.<GreenGhastEntity>of(GreenGhastEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GreenGhastEntity::new)
 
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<HoukiEntity>> HOUKI = register("houki",
